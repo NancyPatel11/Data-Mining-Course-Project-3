@@ -1,0 +1,65 @@
+,venue_x,innings,batting_team,bowling_team,total_runs_per_inning_match,Total_Overs_Played
+0,"Narendra Modi Stadium, Ahmedabad",1,England,New Zealand,282,50.0
+1,"Narendra Modi Stadium, Ahmedabad",2,New Zealand,England,283,36.333333333333336
+2,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",1,Pakistan,Netherlands,286,48.833333333333336
+3,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2,Netherlands,Pakistan,205,41.0
+4,"Himachal Pradesh Cricket Association Stadium, Dharamsala",1,Afghanistan,Bangladesh,156,37.333333333333336
+5,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2,Bangladesh,Afghanistan,158,34.666666666666664
+6,"Arun Jaitley Stadium, Delhi",1,South Africa,Sri Lanka,428,50.0
+7,"Arun Jaitley Stadium, Delhi",2,Sri Lanka,South Africa,326,44.833333333333336
+8,"MA Chidambaram Stadium, Chepauk, Chennai",1,Australia,India,199,49.5
+9,"MA Chidambaram Stadium, Chepauk, Chennai",2,India,Australia,201,41.333333333333336
+10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",1,New Zealand,Netherlands,322,50.0
+11,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2,Netherlands,New Zealand,223,46.5
+12,"Himachal Pradesh Cricket Association Stadium, Dharamsala",1,England,Bangladesh,364,50.0
+13,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2,Bangladesh,England,227,48.333333333333336
+14,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",1,Sri Lanka,Pakistan,344,50.0
+15,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2,Pakistan,Sri Lanka,345,48.333333333333336
+16,"Arun Jaitley Stadium, Delhi",1,Afghanistan,India,272,50.0
+17,"Arun Jaitley Stadium, Delhi",2,India,Afghanistan,273,35.0
+18,"MA Chidambaram Stadium, Chepauk, Chennai",1,Bangladesh,New Zealand,245,50.0
+19,"MA Chidambaram Stadium, Chepauk, Chennai",2,New Zealand,Bangladesh,248,42.833333333333336
+20,"Narendra Modi Stadium, Ahmedabad",1,Pakistan,India,191,42.833333333333336
+21,"Narendra Modi Stadium, Ahmedabad",2,India,Pakistan,192,30.5
+22,"Arun Jaitley Stadium, Delhi",1,Afghanistan,England,284,49.833333333333336
+23,"Arun Jaitley Stadium, Delhi",2,England,Afghanistan,215,40.5
+24,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",1,Sri Lanka,Australia,209,43.5
+25,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2,Australia,Sri Lanka,215,35.333333333333336
+26,"Himachal Pradesh Cricket Association Stadium, Dharamsala",1,Netherlands,South Africa,245,43.0
+27,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2,South Africa,Netherlands,207,42.833333333333336
+28,"MA Chidambaram Stadium, Chepauk, Chennai",1,New Zealand,Afghanistan,288,50.0
+29,"MA Chidambaram Stadium, Chepauk, Chennai",2,Afghanistan,New Zealand,139,34.666666666666664
+30,"Maharashtra Cricket Association Stadium, Pune",1,Bangladesh,India,256,50.0
+31,"Maharashtra Cricket Association Stadium, Pune",2,India,Bangladesh,261,41.5
+32,"M Chinnaswamy Stadium, Bengaluru",1,Australia,Pakistan,367,50.0
+33,"M Chinnaswamy Stadium, Bengaluru",2,Pakistan,Australia,305,45.5
+34,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",1,Netherlands,Sri Lanka,262,49.666666666666664
+35,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2,Sri Lanka,Netherlands,263,48.333333333333336
+36,"Wankhede Stadium, Mumbai",1,South Africa,England,399,50.0
+37,"Wankhede Stadium, Mumbai",2,England,South Africa,170,22.0
+38,"Himachal Pradesh Cricket Association Stadium, Dharamsala",1,New Zealand,India,273,50.0
+39,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2,India,New Zealand,274,48.0
+40,"MA Chidambaram Stadium, Chepauk, Chennai",1,Pakistan,Afghanistan,282,50.0
+41,"MA Chidambaram Stadium, Chepauk, Chennai",2,Afghanistan,Pakistan,286,49.0
+42,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",1,South Africa,Australia,311,50.0
+43,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2,Australia,South Africa,177,40.833333333333336
+44,"Wankhede Stadium, Mumbai",1,South Africa,Bangladesh,382,50.0
+45,"Wankhede Stadium, Mumbai",2,Bangladesh,South Africa,233,46.666666666666664
+46,"Arun Jaitley Stadium, Delhi",1,Australia,Netherlands,399,50.0
+47,"Arun Jaitley Stadium, Delhi",2,Netherlands,Australia,90,21.0
+48,"M Chinnaswamy Stadium, Bengaluru",1,England,Sri Lanka,156,33.333333333333336
+49,"M Chinnaswamy Stadium, Bengaluru",2,Sri Lanka,England,160,25.666666666666668
+50,"MA Chidambaram Stadium, Chepauk, Chennai",1,Pakistan,South Africa,270,46.666666666666664
+51,"MA Chidambaram Stadium, Chepauk, Chennai",2,South Africa,Pakistan,271,47.333333333333336
+52,"Himachal Pradesh Cricket Association Stadium, Dharamsala",1,Australia,New Zealand,388,49.333333333333336
+53,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2,New Zealand,Australia,383,50.0
+54,"Eden Gardens, Kolkata",1,Netherlands,Bangladesh,229,50.0
+55,"Eden Gardens, Kolkata",2,Bangladesh,Netherlands,142,42.333333333333336
+56,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",1,India,England,229,50.0
+57,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2,England,India,129,34.833333333333336
+58,"Maharashtra Cricket Association Stadium, Pune",1,Sri Lanka,Afghanistan,241,49.5
+59,"Maharashtra Cricket Association Stadium, Pune",2,Afghanistan,Sri Lanka,242,45.333333333333336
+60,"Eden Gardens, Kolkata",1,Bangladesh,Pakistan,204,45.166666666666664
+61,"Eden Gardens, Kolkata",2,Pakistan,Bangladesh,205,32.5
+62,"Maharashtra Cricket Association Stadium, Pune",1,South Africa,New Zealand,357,50.0
+63,"Maharashtra Cricket Association Stadium, Pune",2,New Zealand,South Africa,167,35.5
