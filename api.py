@@ -44,8 +44,6 @@ def predict():
         df[column] = le.fit_transform(df[column])
         toss_mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-    toss_mapping
-
     df=pd.read_csv('upcoming_matches.csv')
     number_of_matches=df.shape[0]
     toss_winner=[]
@@ -250,10 +248,337 @@ def predict():
 
         NRR.append(final_for-final_against)
 
+    df_final_points_table['NRR']=NRR
+    df_final_points_table=df_final_points_table.sort_values(by=['points','NRR'],ascending=False)
+
     return {
         'team': list(df_final_points_table['team']),
         'points':list(df_final_points_table['points']),
         'NRR':NRR
+    }
+
+@app.get('/finalist')
+def predict_finalist():
+    dict_top4=predict()
+
+    df=pd.read_csv('matches.csv')
+    df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
+       'reserve_umpire', 'match_referee', 'winner', 'winner_runs',
+       'winner_wickets', 'match_type','city'],axis='columns',inplace=True)
+    
+    le=LabelEncoder()
+    toss_mapping = {}
+
+    for column in df.columns:
+        df[column] = le.fit_transform(df[column])
+        toss_mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
+
+    df=pd.read_csv('upcoming_matches.csv')
+    number_of_matches=2
+    toss_winner=[]
+    toss_losser=[]
+    for i in range(0,number_of_matches):
+        if(rn.uniform(0,1)<0.5):
+            toss_winner.append(dict_top4['team'][i])
+            toss_losser.append(dict_top4['team'][3-i])
+        else:
+            toss_winner.append(dict_top4['team'][3-i])
+            toss_losser.append(dict_top4['team'][i])
+
+    # df['toss_winner']=toss_winner
+
+    le=LabelEncoder()
+    for col in df.columns:
+        df[col]=le.fit_transform(df[col])
+
+    team1=[dict_top4['team'][0],dict_top4['team'][3]]
+    team2=[dict_top4['team'][1],dict_top4['team'][2]]
+    venue=['Eden Gardens','Wankhede Stadium']
+    df=pd.DataFrame()
+    df['team1']=team1
+    df['team2']=team2
+    df['venue']=venue
+    df['toss_winner']=toss_winner
+    feature=list(df.columns)
+    number_of_features=df.shape[1]
+    for i in range(0,number_of_features):
+        for j in range(0,number_of_matches):
+            feature_name = feature[i]
+            original_value = df.loc[j, feature_name]
+            new_value = toss_mapping[feature_name][original_value]
+            df.loc[j, feature_name] = new_value
+
+    toss_prediction = toss_decision_model.predict(df)
+
+    batting_team1=[]
+    bowling_team1=[]
+    venue_x=[]
+    Total_Overs_Played=[]
+    for i in range(0,number_of_matches):
+        if toss_prediction[i]==0:
+            batting=toss_winner[i]
+            bowling=toss_losser[i]
+            batting_team1.append(batting)
+            bowling_team1.append(bowling)
+            venue_x.append(df.iloc[i]['venue'])
+            Total_Overs_Played.append(50.0)
+        else:
+            bowling=toss_winner[i]
+            batting=toss_losser[i]
+            batting_team1.append(batting)
+            bowling_team1.append(bowling)
+            venue_x.append(df.iloc[i]['venue'])
+            Total_Overs_Played.append(50.0)
+
+    df_inning1=pd.DataFrame()
+    df_inning1['team1']=batting_team1
+    df_inning1['team2']=bowling_team1
+    df_inning1['venue']=venue_x
+    df_inning1['Total_Overs_Played']=Total_Overs_Played
+
+    feature=list(df_inning1.columns)
+    number_of_features=df_inning1.shape[1]
+    for i in range(0,number_of_features-2):
+        for j in range(0,number_of_matches):
+            feature_name = feature[i]
+            original_value = df_inning1.loc[j, feature_name]
+            new_value = toss_mapping[feature_name][original_value]
+            df_inning1.loc[j, feature_name] = new_value
+
+    df_inning1.rename(columns={"team1":"batting_team","team2":"bowling_team","venue":"venue_x"},inplace=True)
+    inning1_pred=inning1_model.predict(df_inning1)
+
+    df_inning1.drop('Total_Overs_Played',axis='columns',inplace=True)
+    df_inning1['total_runs_per_inning_match']=list(inning1_pred)
+    df_inning1['innings']=[1 for i in range(0,number_of_matches)]
+
+    overs_pred1=overs_model.predict(df_inning1)
+
+    for i in range(0,len(inning1_pred)):
+        if overs_pred1[i]>50.0:
+            inning1_pred[i]=inning1_pred[i]*50/overs_pred1[i]
+
+    ###2
+    batting_team2=[]
+    bowling_team2=[]
+    venue_x=[]
+    Total_Overs_Played=[]
+    for i in range(0,number_of_matches):
+        if toss_prediction[i]==0:
+            bowling=toss_winner[i]
+            batting=toss_losser[i]
+            batting_team2.append(batting)
+            bowling_team2.append(bowling)
+            venue_x.append(df.iloc[i]['venue'])
+            Total_Overs_Played.append(50.0)
+        else:
+            batting=toss_winner[i]
+            bowling=toss_losser[i]
+            batting_team2.append(batting)
+            bowling_team2.append(bowling)
+            venue_x.append(df.iloc[i]['venue'])
+            Total_Overs_Played.append(50.0)
+
+    df_inning2=pd.DataFrame()
+    df_inning2['team1']=batting_team2
+    df_inning2['team2']=bowling_team2
+    df_inning2['venue']=venue_x
+    df_inning2['Total_Overs_Played']=Total_Overs_Played
+
+    feature=list(df_inning2.columns)
+    number_of_features=df_inning2.shape[1]
+    for i in range(0,number_of_features-2):
+        for j in range(0,number_of_matches):
+            feature_name = feature[i]
+            original_value = df_inning2.loc[j, feature_name]
+            new_value = toss_mapping[feature_name][original_value]
+            df_inning2.loc[j, feature_name] = new_value
+
+    df_inning2.rename(columns={"team1":"batting_team","team2":"bowling_team","venue":"venue_x"},inplace=True)
+    inning2_pred=inning2_model.predict(df_inning2)
+
+    df_inning2.drop('Total_Overs_Played',axis='columns',inplace=True)
+    df_inning2['total_runs_per_inning_match']=list(inning2_pred)
+    df_inning2['innings']=[2 for i in range(0,number_of_matches)]
+
+    overs_pred2=overs_model.predict(df_inning2)
+
+    for i in range(0,len(inning2_pred)):
+        if overs_pred2[i]>50.0:
+            inning2_pred[i]=inning2_pred[i]*50/overs_pred2[i]
+
+    finalist=[]
+    if inning1_pred[0]>inning2_pred[0]:
+        finalist.append(batting_team1[0])
+    else:
+        finalist.append(batting_team2[0])
+
+    if inning1_pred[1]>inning2_pred[1]:
+        finalist.append(batting_team1[1])
+    else:
+        finalist.append(batting_team2[1])
+    
+    return{
+        'finalist':finalist,
+    }
+
+@app.get('/winner')
+def predict_winner():
+    dict_finalist=predict_finalist()
+
+    df=pd.read_csv('matches.csv')
+    df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
+       'reserve_umpire', 'match_referee', 'winner', 'winner_runs',
+       'winner_wickets', 'match_type','city'],axis='columns',inplace=True)
+    
+    le=LabelEncoder()
+    toss_mapping = {}
+
+    for column in df.columns:
+        df[column] = le.fit_transform(df[column])
+        toss_mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
+
+    df=pd.read_csv('upcoming_matches.csv')
+    number_of_matches=1
+    toss_winner=[]
+    toss_losser=[]
+    for i in range(0,number_of_matches):
+        if(rn.uniform(0,1)<0.5):
+            toss_winner.append(dict_finalist['finalist'][i])
+            toss_losser.append(dict_finalist['finalist'][1-i])
+        else:
+            toss_winner.append(dict_finalist['finalist'][1-i])
+            toss_losser.append(dict_finalist['finalist'][i])
+
+    # df['toss_winner']=toss_winner
+
+    le=LabelEncoder()
+    for col in df.columns:
+        df[col]=le.fit_transform(df[col])
+
+    team1=[dict_finalist['finalist'][0]]
+    team2=[dict_finalist['finalist'][1]]
+    venue=['Narendra Modi Stadium']
+    df=pd.DataFrame()
+    df['team1']=team1
+    df['team2']=team2
+    df['venue']=venue
+    df['toss_winner']=toss_winner
+    feature=list(df.columns)
+    number_of_features=df.shape[1]
+    for i in range(0,number_of_features):
+        for j in range(0,number_of_matches):
+            feature_name = feature[i]
+            original_value = df.loc[j, feature_name]
+            new_value = toss_mapping[feature_name][original_value]
+            df.loc[j, feature_name] = new_value
+
+    toss_prediction = toss_decision_model.predict(df)
+
+    batting_team1=[]
+    bowling_team1=[]
+    venue_x=[]
+    Total_Overs_Played=[]
+    for i in range(0,number_of_matches):
+        if toss_prediction[i]==0:
+            batting=toss_winner[i]
+            bowling=toss_losser[i]
+            batting_team1.append(batting)
+            bowling_team1.append(bowling)
+            venue_x.append(df.iloc[i]['venue'])
+            Total_Overs_Played.append(50.0)
+        else:
+            bowling=toss_winner[i]
+            batting=toss_losser[i]
+            batting_team1.append(batting)
+            bowling_team1.append(bowling)
+            venue_x.append(df.iloc[i]['venue'])
+            Total_Overs_Played.append(50.0)
+
+    df_inning1=pd.DataFrame()
+    df_inning1['team1']=batting_team1
+    df_inning1['team2']=bowling_team1
+    df_inning1['venue']=venue_x
+    df_inning1['Total_Overs_Played']=Total_Overs_Played
+
+    feature=list(df_inning1.columns)
+    number_of_features=df_inning1.shape[1]
+    for i in range(0,number_of_features-2):
+        for j in range(0,number_of_matches):
+            feature_name = feature[i]
+            original_value = df_inning1.loc[j, feature_name]
+            new_value = toss_mapping[feature_name][original_value]
+            df_inning1.loc[j, feature_name] = new_value
+
+    df_inning1.rename(columns={"team1":"batting_team","team2":"bowling_team","venue":"venue_x"},inplace=True)
+    inning1_pred=inning1_model.predict(df_inning1)
+
+    df_inning1.drop('Total_Overs_Played',axis='columns',inplace=True)
+    df_inning1['total_runs_per_inning_match']=list(inning1_pred)
+    df_inning1['innings']=[1 for i in range(0,number_of_matches)]
+
+    overs_pred1=overs_model.predict(df_inning1)
+
+    for i in range(0,len(inning1_pred)):
+        if overs_pred1[i]>50.0:
+            inning1_pred[i]=inning1_pred[i]*50/overs_pred1[i]
+
+    ###2
+    batting_team2=[]
+    bowling_team2=[]
+    venue_x=[]
+    Total_Overs_Played=[]
+    for i in range(0,number_of_matches):
+        if toss_prediction[i]==0:
+            bowling=toss_winner[i]
+            batting=toss_losser[i]
+            batting_team2.append(batting)
+            bowling_team2.append(bowling)
+            venue_x.append(df.iloc[i]['venue'])
+            Total_Overs_Played.append(50.0)
+        else:
+            batting=toss_winner[i]
+            bowling=toss_losser[i]
+            batting_team2.append(batting)
+            bowling_team2.append(bowling)
+            venue_x.append(df.iloc[i]['venue'])
+            Total_Overs_Played.append(50.0)
+
+    df_inning2=pd.DataFrame()
+    df_inning2['team1']=batting_team2
+    df_inning2['team2']=bowling_team2
+    df_inning2['venue']=venue_x
+    df_inning2['Total_Overs_Played']=Total_Overs_Played
+
+    feature=list(df_inning2.columns)
+    number_of_features=df_inning2.shape[1]
+    for i in range(0,number_of_features-2):
+        for j in range(0,number_of_matches):
+            feature_name = feature[i]
+            original_value = df_inning2.loc[j, feature_name]
+            new_value = toss_mapping[feature_name][original_value]
+            df_inning2.loc[j, feature_name] = new_value
+
+    df_inning2.rename(columns={"team1":"batting_team","team2":"bowling_team","venue":"venue_x"},inplace=True)
+    inning2_pred=inning2_model.predict(df_inning2)
+
+    df_inning2.drop('Total_Overs_Played',axis='columns',inplace=True)
+    df_inning2['total_runs_per_inning_match']=list(inning2_pred)
+    df_inning2['innings']=[2 for i in range(0,number_of_matches)]
+
+    overs_pred2=overs_model.predict(df_inning2)
+
+    for i in range(0,len(inning2_pred)):
+        if overs_pred2[i]>50.0:
+            inning2_pred[i]=inning2_pred[i]*50/overs_pred2[i]
+
+    if inning1_pred[0]>inning2_pred[0]:
+        winner=batting_team1[0]
+    else:
+        winner=batting_team2[0]
+
+    return{
+        'winner':winner,
     }
 
 if __name__ == '__main__':
