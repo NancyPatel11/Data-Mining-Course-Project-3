@@ -19,6 +19,9 @@ inning2_model=pickle.load(file_inning2)
 file_over=open("overs.pkl","rb")
 overs_model=pickle.load(file_over)
 
+file_player=open("runs_wickets_prediction.pkl","rb")
+player_model=pickle.load(file_player)
+
 #default route
 @app.get('/')
 def index():
@@ -420,6 +423,130 @@ def predict_finalist():
     
     return{
         'finalist':finalist,
+    }
+
+@app.get('/playing-11')
+def predict_playing11():
+    dict_finalist=predict_finalist()
+
+    df=pd.read_csv('playerwise_df.csv')
+    df.drop(['match_id', 'season', 'start_date'],axis='columns',inplace=True)
+
+    le = LabelEncoder()
+    mapping = {}
+
+    for column in df.drop(['total_runs','total_wickets'],axis='columns').columns:
+        df[column] = le.fit_transform(df[column])
+        mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
+
+    df_deliveries = pd.read_csv('deliveries.csv')
+    all_players = set()
+
+    all_players.update(df_deliveries['striker'].unique())
+    all_players.update(df_deliveries['non_striker'].unique())
+    all_players.update(df_deliveries['bowler'].unique())
+
+    team_players = {team: {'striker': set(), 'non_striker': set(), 'bowler': set()} for team in df_deliveries['batting_team'].unique()}
+
+    for _, row in df_deliveries.iterrows():
+        team = row['batting_team']
+        team_players[team]['striker'].add(row['striker'])
+        team_players[team]['non_striker'].add(row['non_striker'])
+        team_players[team]['bowler'].add(row['bowler'])
+
+    team_players = {team: set() for team in df_deliveries['batting_team'].unique()}
+
+    for _, row in df_deliveries.iterrows():
+        team = row['batting_team']
+        team_players[team].add(row['striker'])
+        team_players[team].add(row['non_striker'])
+        
+    for _, row in df_deliveries.iterrows():
+        team = row['bowling_team']
+        team_players[team].add(row['bowler'])
+
+    team1_players=list(team_players[dict_finalist['finalist'][0]])
+    team2_players=list(team_players[dict_finalist['finalist'][1]])
+
+    team1=dict_finalist['finalist'][0]
+    team2=dict_finalist['finalist'][1]
+
+    df_team1=pd.DataFrame()
+    df_team1['venue']=[7 for i in range(0,len(team1_players))]
+    df_team1['team']=[team1 for i in range(0,df_team1.shape[0])]
+    df_team1['opposing_team']=[team2 for i in range(0,df_team1.shape[0])]
+    df_team1['player']=team1_players
+
+    number_of_players=df_team1.shape[0]
+    feature=list(df_team1.columns)
+    number_of_features=df_team1.shape[1]
+    for i in range(1,number_of_features):
+        for j in range(0,number_of_players):
+            feature_name = feature[i]
+            original_value = df_team1.loc[j, feature_name]
+            new_value = mapping[feature_name][original_value]
+            df_team1.loc[j, feature_name] = int(new_value)
+
+    df_team1=df_team1.astype('int')
+
+    player_team1=player_model.predict(df_team1)
+
+    df_team2=pd.DataFrame()
+    df_team2['venue']=[7 for i in range(0,len(team2_players))]
+    df_team2['team']=[team2 for i in range(0,df_team2.shape[0])]
+    df_team2['opposing_team']=[team1 for i in range(0,df_team2.shape[0])]
+    df_team2['player']=team2_players
+
+    number_of_players=df_team2.shape[0]
+    feature=list(df_team2.columns)
+    number_of_features=df_team2.shape[1]
+    for i in range(1,number_of_features):
+        for j in range(0,number_of_players):
+            feature_name = feature[i]
+            original_value = df_team2.loc[j, feature_name]
+            new_value = mapping[feature_name][original_value]
+            df_team2.loc[j, feature_name] = new_value
+
+    df_team2=df_team2.astype('int')
+
+    player_team2=player_model.predict(df_team2)
+
+    final_team1=pd.DataFrame()
+    final_team1['player']=team1_players
+    run=[]
+    for val in player_team1:
+        run.append(val[0])
+    final_team1['run']=run
+
+    wicket=[]
+    for val in player_team1:
+        wicket.append(val[1])
+    final_team1['wicket']=wicket
+
+    final_team2=pd.DataFrame()
+    final_team2['player']=team2_players
+    run=[]
+    for val in player_team2:
+        run.append(val[0])
+    final_team2['run']=run
+
+    wicket=[]
+    for val in player_team2:
+        wicket.append(val[1])
+    final_team2['wicket']=wicket
+
+    final_team1=final_team1.sort_values(by=['run','wicket'],ascending=False)
+    final_team2=final_team2.sort_values(by=['run','wicket'],ascending=False)
+
+    team1_playing_11=[]
+    team2_playing_11=[]
+    for i in range(0,12):
+        team1_playing_11.append(final_team1.iloc[i]['player'])
+        team2_playing_11.append(final_team2.iloc[i]['player'])
+
+    return {
+        team1:team1_playing_11,
+        team2:team2_playing_11
     }
 
 @app.get('/winner')
