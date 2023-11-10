@@ -24,15 +24,15 @@ def predict(ball_data:ball_prediction):
     le = LabelEncoder()
     
     input_data = np.array([[
-        ball_data.innings, ball_data.ball,
-        ball_data.extras, ball_data.wides, ball_data.noballs,
-        ball_data.byes, ball_data.legbyes, ball_data.penalty,
         le.fit_transform([ball_data.venue])[0],
+        ball_data.innings, ball_data.ball,
         le.fit_transform([ball_data.batting_team])[0],
         le.fit_transform([ball_data.bowling_team])[0],
         le.fit_transform([ball_data.striker])[0],
         le.fit_transform([ball_data.non_striker])[0],
         le.fit_transform([ball_data.bowler])[0],
+        ball_data.extras, ball_data.wides, ball_data.noballs,
+        ball_data.byes, ball_data.legbyes, ball_data.penalty,
         le.fit_transform([ball_data.wicket_type])[0],
         le.fit_transform([ball_data.player_dismissed])[0],
     ]])
