@@ -44,30 +44,171 @@ To run the ICC Cricket World Cup 2023 Simulator on your machine, follow these st
 
 # Datasets Used:
 
-1. deliveries.csv
+a. deliveries.csv
 
-This dataset is taken from kaggle.
+This dataset is taken from kaggle. It has following features:
 
-2. points_table.csv
+1. match_id: Identifier for a specific cricket match.
 
-This dataset is taken from kaggle.
+2. season: The cricket season during which the match took place.
 
-3. matches.csv
+3. start_date: The date when the match started.
 
-This dataset is taken from kaggle.
+4. venue: The location or stadium where the match was played.
 
-4. upcoming_matches.csv:
+5. innings: The inning number (1st or 2nd) in the match.
 
-We manually created this dataset with two teams and venue where the match is to be played in the future matches.
+6. ball: The ball number in the current inning.
 
-5. match_summary.csv
+7. batting_team: The team currently batting.
 
-This data is created by using match_summary_csv_creation.ipynb file. It consists of features venue, innings, batting_team, bowling_team, total_runs_per_inning_match and total_overs_played. This dataset basically shows the matchwise runs made by each team and the total overs played by each of them. This dataset is created using the matches.csv and deliveries.csv datasets taken from kaggle.
+8. bowling_team: The team currently bowling.
 
-6. playerwise_df.csv
+9. striker: The batsman who is currently facing the ball.
 
-This data is created using total_runs_wickets_prediction.ipynb file. It consists of features match_id, season, start_date, venue, team, opposing_team, player, total_runs and total_wickets. This dataset basically shows the matchwise runs made by the player of a team against the opposing_team. It also displays the wickets taken by the player of a team against the opposing_team.
+10. non_striker: The batsman at the non-striker's end.
 
+11. bowler: The bowler delivering the ball.
+
+12. runs_off_bat: The runs scored off the bat (excluding extras).
+
+13. extras: Extra runs scored, including wides, no-balls, byes, leg-byes, and penalties.
+
+14. wides: The run for wide deliveries bowled.
+
+15. noballs: The run for no-balls bowled.
+
+16. byes: Runs scored due to byes (awarded when the ball passes the batsman without touching the bat).
+
+17. legbyes: Runs scored due to leg-byes (awarded for runs off the batsman's body).
+
+18. penalty: Penalty runs awarded to the batting team.
+
+19. wicket_type: Type of wicket taken (e.g., caught, bowled, lbw).
+
+20. player_dismissed: The batsman who got dismissed (if a wicket fell).
+
+21. other_wicket_type: Additional information on the type of wicket, if applicable.
+
+22. other_player_dismissed: Additional information on the dismissed player, if applicable.
+
+b. points_table.csv
+
+This dataset is taken from kaggle. It has following features:
+
+1. `Ranking`: The position of the cricket team in the overall ranking.
+
+2. `Team`: The name of the cricket team.
+
+3. `Matches`: The total number of matches played by the team.
+
+4. `Won`: The number of matches won by the team.
+
+5. `Lost`: The number of matches lost by the team.
+
+6. `Tie`: The number of matches ending in a tie for the team.
+
+7. `No Results`: The number of matches with no conclusive result for the team.
+
+8. `Points`: The total points earned by the team in the ranking system.
+
+9. `Net Run Rate`: The team's net run rate, calculated based on runs scored and conceded.
+
+10. `Series Form`: The team's recent performance trend in a series of matches.
+
+11. `Next Match`: Information about the team's upcoming match.
+
+12. `For`: The total runs scored by the team.
+
+13. `Against`: The total runs conceded by the team.
+
+c. matches.csv
+
+This dataset is taken from kaggle. It has following features.
+
+1. season: The cricket season in which the match is played.
+
+2. team1: One of the participating teams in the match.
+
+3. team2: The other participating team in the match.
+
+4. date: The date on which the match is scheduled.
+
+5. match_number: The unique identifier for the match in the season.
+
+6. venue: The location or stadium where the match will be played.
+
+7. city: The city where the match is hosted.
+
+8. toss_winner: The team winning the coin toss before the match.
+
+9. toss_decision: The decision made by the toss winner (batting or bowling).
+
+10. player_of_match: The player adjudged as the best performer in the match.
+
+11. umpire1: The name of the first on-field umpire.
+
+12. umpire2: The name of the second on-field umpire.
+
+13. reserve_umpire: The reserve umpire designated for the match.
+
+14. match_referee: The official overseeing the match and ensuring fair play.
+
+15. winner: The team that emerged victorious in the match.
+
+16. winner_runs: The margin of victory for the winning team in terms of runs.
+
+17. winner_wickets: The number of wickets by which the winning team secured victory.
+
+18. match_type: The type of cricket match (e.g., One Day International, T20, Test).
+
+d. upcoming_matches.csv:
+
+We manually created this dataset for the future matches.It has the following feature:
+
+1. `team1`: One of the participating cricket teams in a match.
+
+2. `team2`: The other participating cricket team in a match.
+
+3. `venue`: The location or stadium where the cricket match is being played.
+
+e. match_summary.csv
+
+This data is created by using match_summary_csv_creation.ipynb file. It consists of features venue, innings, batting_team, bowling_team, total_runs_per_inning_match and total_overs_played. This dataset basically shows the matchwise runs made by each team and the total overs played by each of them. This dataset is created using the matches.csv and deliveries.csv datasets taken from kaggle. The breif description of each feature follows:
+
+1. `venue_x`: The location or stadium where the cricket match is taking place.
+
+2. `innings`: The inning number (1 or 2) in the cricket match.
+
+3. `batting_team`: The team currently batting in a particular inning.
+
+4. `bowling_team`: The team currently bowling in a particular inning.
+
+5. `total_runs_per_inning_match`: The total runs scored in a specific inning of the match by the batting team.
+
+6. `Total_Overs_Played`: The total number of overs played in the cricket match by batting team.
+
+f. playerwise_df.csv
+
+This data is created using total_runs_wickets_prediction.ipynb file. It consists of features match_id, season, start_date, venue, team, opposing_team, player, total_runs and total_wickets. This dataset basically shows the matchwise runs made by the player of a team against the opposing_team. It also displays the wickets taken by the player of a team against the opposing_team. The breif description of each feature follows:
+
+1. `match_id`: Identifier for a specific cricket match.
+
+2. `season`: The cricket season during which the match took place.
+
+3. `start_date`: The date when the match started.
+
+4. `venue`: The location or stadium where the match was played.
+
+5. `team`: The cricket team to which the player belongs.
+
+6. `opposing_team`: The opposing cricket team in the match.
+
+7. `player`: The name of the player.
+
+8. `total_runs`: The total runs scored by the player in the match.
+
+9. `total_wickets`: The total number of wickets taken by the player in the match.
 
 # Task 1
 
