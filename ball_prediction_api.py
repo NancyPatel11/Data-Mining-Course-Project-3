@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder,StandardScaler
 
 #create the app object
 app=FastAPI()
-pickle_model=open("ball_prediction_rfc.pkl","rb")
+pickle_model=open("pickle_files/ball_prediction_rfc.pkl","rb")
 classifier=pickle.load(pickle_model)
 
 #default route
@@ -17,7 +17,7 @@ classifier=pickle.load(pickle_model)
 def index():
     return{"message":"Welcome to the ball prediction API. Here, we will predict the runs on each ball."}
 
-data = pd.read_csv("ball_prediction.csv",index_col=0)
+data = pd.read_csv("csv_files/ball_prediction.csv",index_col=0)
 data.drop(['match_id','season','start_date','runs_off_bat'],axis=1,inplace=True)
 
 def label_encode(data, column, le=None):
