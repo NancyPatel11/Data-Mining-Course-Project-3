@@ -48,49 +48,49 @@ a. deliveries.csv
 
 This dataset is taken from kaggle. It has following features:
 
-1. match_id: Identifier for a specific cricket match.
+1. `match_id`: Identifier for a specific cricket match.
 
-2. season: The cricket season during which the match took place.
+2. `season`: The cricket season during which the match took place.
 
-3. start_date: The date when the match started.
+3. `start_date`: The date when the match started.
 
-4. venue: The location or stadium where the match was played.
+4. `venue`: The location or stadium where the match was played.
 
-5. innings: The inning number (1st or 2nd) in the match.
+5. `innings`: The inning number (1st or 2nd) in the match.
 
-6. ball: The ball number in the current inning.
+6. `ball`: The ball number in the current inning.
 
-7. batting_team: The team currently batting.
+7. `batting_team`: The team currently batting.
 
-8. bowling_team: The team currently bowling.
+8. `bowling_team`: The team currently bowling.
 
-9. striker: The batsman who is currently facing the ball.
+9. `striker`: The batsman who is currently facing the ball.
 
-10. non_striker: The batsman at the non-striker's end.
+10. `non_striker`: The batsman at the non-striker's end.
 
-11. bowler: The bowler delivering the ball.
+11. `bowler`: The bowler delivering the ball.
 
-12. runs_off_bat: The runs scored off the bat (excluding extras).
+12. `runs_off_bat`: The runs scored off the bat (excluding extras).
 
-13. extras: Extra runs scored, including wides, no-balls, byes, leg-byes, and penalties.
+13. `extras`: Extra runs scored, including wides, no-balls, byes, leg-byes, and penalties.
 
-14. wides: The run for wide deliveries bowled.
+14. `wides`: The run for wide deliveries bowled.
 
-15. noballs: The run for no-balls bowled.
+15. `noballs`: The run for no-balls bowled.
 
-16. byes: Runs scored due to byes (awarded when the ball passes the batsman without touching the bat).
+16. `byes`: Runs scored due to byes (awarded when the ball passes the batsman without touching the bat).
 
-17. legbyes: Runs scored due to leg-byes (awarded for runs off the batsman's body).
+17. `legbyes`: Runs scored due to leg-byes (awarded for runs off the batsman's body).
 
-18. penalty: Penalty runs awarded to the batting team.
+18. `penalty`: Penalty runs awarded to the batting team.
 
-19. wicket_type: Type of wicket taken (e.g., caught, bowled, lbw).
+19. `wicket_type`: Type of wicket taken (e.g., caught, bowled, lbw).
 
-20. player_dismissed: The batsman who got dismissed (if a wicket fell).
+20. `player_dismissed`: The batsman who got dismissed (if a wicket fell).
 
-21. other_wicket_type: Additional information on the type of wicket, if applicable.
+21. `other_wicket_type`: Additional information on the type of wicket, if applicable.
 
-22. other_player_dismissed: Additional information on the dismissed player, if applicable.
+22. `other_player_dismissed`: Additional information on the dismissed player, if applicable.
 
 b. points_table.csv
 
@@ -126,41 +126,41 @@ c. matches.csv
 
 This dataset is taken from kaggle. It has following features.
 
-1. season: The cricket season in which the match is played.
+1. `season`: The cricket season in which the match is played.
 
-2. team1: One of the participating teams in the match.
+2. `team1`: One of the participating teams in the match.
 
-3. team2: The other participating team in the match.
+3. `team2`: The other participating team in the match.
 
-4. date: The date on which the match is scheduled.
+4. `date`: The date on which the match is scheduled.
 
-5. match_number: The unique identifier for the match in the season.
+5. `match_number`: The unique identifier for the match in the season.
 
-6. venue: The location or stadium where the match will be played.
+6. `venue`: The location or stadium where the match will be played.
 
-7. city: The city where the match is hosted.
+7. `city`: The city where the match is hosted.
 
-8. toss_winner: The team winning the coin toss before the match.
+8. `toss_winner`: The team winning the coin toss before the match.
 
-9. toss_decision: The decision made by the toss winner (batting or bowling).
+9. `toss_decision`: The decision made by the toss winner (batting or bowling).
 
-10. player_of_match: The player adjudged as the best performer in the match.
+10. `player_of_match`: The player adjudged as the best performer in the match.
 
-11. umpire1: The name of the first on-field umpire.
+11. `umpire1`: The name of the first on-field umpire.
 
-12. umpire2: The name of the second on-field umpire.
+12. `umpire2`: The name of the second on-field umpire.
 
-13. reserve_umpire: The reserve umpire designated for the match.
+13. `reserve_umpire`: The reserve umpire designated for the match.
 
-14. match_referee: The official overseeing the match and ensuring fair play.
+14. `match_referee`: The official overseeing the match and ensuring fair play.
 
-15. winner: The team that emerged victorious in the match.
+15. `winner`: The team that emerged victorious in the match.
 
-16. winner_runs: The margin of victory for the winning team in terms of runs.
+16. `winner_runs`: The margin of victory for the winning team in terms of runs.
 
-17. winner_wickets: The number of wickets by which the winning team secured victory.
+17. `winner_wickets`: The number of wickets by which the winning team secured victory.
 
-18. match_type: The type of cricket match (e.g., One Day International, T20, Test).
+18. `match_type`: The type of cricket match (e.g., One Day International, T20, Test).
 
 d. upcoming_matches.csv:
 
