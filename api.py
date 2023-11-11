@@ -7,19 +7,19 @@ import random as rn
 from sklearn.preprocessing import LabelEncoder
 
 app=FastAPI()
-toss_decision=open("toss_decision.pkl","rb")
+toss_decision=open("pickle_files/toss_decision.pkl","rb")
 toss_decision_model=pickle.load(toss_decision)
 
-file_inning1=open("runs_inning_1.pkl","rb")
+file_inning1=open("pickle_files/runs_inning_1.pkl","rb")
 inning1_model=pickle.load(file_inning1)
 
-file_inning2=open("runs_inning_2.pkl","rb")
+file_inning2=open("pickle_files/runs_inning_2.pkl","rb")
 inning2_model=pickle.load(file_inning2)
 
-file_over=open("overs.pkl","rb")
+file_over=open("pickle_files/overs.pkl","rb")
 overs_model=pickle.load(file_over)
 
-file_player=open("runs_wickets_prediction.pkl","rb")
+file_player=open("pickle_files/runs_wickets_prediction.pkl","rb")
 player_model=pickle.load(file_player)
 
 #default route
@@ -35,7 +35,7 @@ def index():
 #Prediction Function, return the predicted result in JSON
 @app.get('/points-table')
 def predict():
-    df=pd.read_csv('matches.csv')
+    df=pd.read_csv('csv_files/matches.csv')
     df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
        'reserve_umpire', 'match_referee', 'winner', 'winner_runs',
        'winner_wickets', 'match_type','city'],axis='columns',inplace=True)
@@ -47,7 +47,7 @@ def predict():
         df[column] = le.fit_transform(df[column])
         toss_mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-    df=pd.read_csv('upcoming_matches.csv')
+    df=pd.read_csv('csv_files/upcoming_matches.csv')
     number_of_matches=df.shape[0]
     toss_winner=[]
     toss_losser=[]
@@ -184,7 +184,7 @@ def predict():
     overs_for=[]
     overs_against=[]
 
-    df_points_table=pd.read_csv('points_table.csv')
+    df_points_table=pd.read_csv('csv_files/points_table.csv')
     team=list(df_points_table['Team'])
     points=list(df_points_table['Points'])
     for_=list(df_points_table['For'])
@@ -264,7 +264,7 @@ def predict():
 def predict_finalist():
     dict_top4=predict()
 
-    df=pd.read_csv('matches.csv')
+    df=pd.read_csv('csv_files/matches.csv')
     df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
        'reserve_umpire', 'match_referee', 'winner', 'winner_runs',
        'winner_wickets', 'match_type','city'],axis='columns',inplace=True)
@@ -276,7 +276,7 @@ def predict_finalist():
         df[column] = le.fit_transform(df[column])
         toss_mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-    df=pd.read_csv('upcoming_matches.csv')
+    df=pd.read_csv('csv_files/upcoming_matches.csv')
     number_of_matches=2
     toss_winner=[]
     toss_losser=[]
@@ -429,7 +429,7 @@ def predict_finalist():
 def predict_playing11():
     dict_finalist=predict_finalist()
 
-    df=pd.read_csv('playerwise_df.csv')
+    df=pd.read_csv('csv_files/playerwise_df.csv')
     df.drop(['match_id', 'season', 'start_date'],axis='columns',inplace=True)
 
     le = LabelEncoder()
@@ -439,7 +439,7 @@ def predict_playing11():
         df[column] = le.fit_transform(df[column])
         mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-    df_deliveries = pd.read_csv('deliveries.csv')
+    df_deliveries = pd.read_csv('csv_files/deliveries.csv')
     all_players = set()
 
     all_players.update(df_deliveries['striker'].unique())
@@ -553,7 +553,7 @@ def predict_playing11():
 def predict_winner():
     dict_finalist=predict_finalist()
 
-    df=pd.read_csv('matches.csv')
+    df=pd.read_csv('csv_files/matches.csv')
     df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
        'reserve_umpire', 'match_referee', 'winner', 'winner_runs',
        'winner_wickets', 'match_type','city'],axis='columns',inplace=True)
@@ -565,7 +565,7 @@ def predict_winner():
         df[column] = le.fit_transform(df[column])
         toss_mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-    df=pd.read_csv('upcoming_matches.csv')
+    df=pd.read_csv('csv_files/upcoming_matches.csv')
     number_of_matches=1
     toss_winner=[]
     toss_losser=[]
