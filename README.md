@@ -214,6 +214,22 @@ This data is created using total_runs_wickets_prediction.ipynb file. It consists
 
 **Problem 1:**
 
+**Predicting runs on each ball**
+
+In order to predict runs on each ball, we used the datasets given below:
+
+1. deliveries.csv
+
+
+To predict the runs on each ball, we used the following .ipynb files which were imported as pickle files and used in our ball_prediction_api's 'predict' function:
+
+1. ball_prediction.ipynb
+
+This file predicts the 'runs_off_bat' (runs on each ball) based on 'venue', 'batting team', 'bowling team' and 'striker', 'non striker', 'bowler', 'extras' and 'wides', 'no balls', 'byes', 'leg byes' and 'penalty', 'wicket type',and 'player dismissed'. 
+We import this file as ball_prediction_rfc.pkl and used it in ball_prediction_api.py .
+
+We have used deep neural network (dnn) as one of the models for prediction in this task. In the ball_prediction_api, for the label encoding fitting data, we have passed the pre-processed data from ball_prediction.ipynb as ball_prediction.csv .
+
 **Problem 2:**
 
 # Task 2
