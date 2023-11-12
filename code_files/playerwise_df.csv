@@ -1,0 +1,933 @@
+,match_id,season,start_date,venue,team,player,total_runs,total_wickets
+0,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,MM Ali,11,0
+1,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,RJW Topley,0,0
+2,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,HC Brook,25,0
+3,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,DJ Malan,14,0
+4,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,MA Wood,13,0
+5,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,AAP Atkinson,0,0
+6,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,BA Stokes,0,0
+7,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,JC Buttler,43,0
+8,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,CR Woakes,11,0
+9,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,JE Root,77,0
+10,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,SM Curran,14,1
+11,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,DJ Willey,0,0
+12,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,JM Bairstow,33,0
+13,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,AU Rashid,15,0
+14,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",England,LS Livingstone,20,0
+15,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,JDS Neesham,0,0
+16,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,R Ravindra,123,1
+17,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,MJ Santner,0,2
+18,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,LH Ferguson,0,0
+19,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,DP Conway,152,0
+20,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,GD Phillips,0,2
+21,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,DJ Mitchell,0,0
+22,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,TG Southee,0,0
+23,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,KS Williamson,0,0
+24,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,TA Boult,0,1
+25,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,WA Young,0,0
+26,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,MS Chapman,0,0
+27,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,MJ Henry,0,3
+28,1,2023/24,2023-10-05,"Narendra Modi Stadium, Ahmedabad",New Zealand,TWM Latham,0,0
+46,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Fakhar Zaman,12,0
+47,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Hasan Ali,0,2
+48,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Haris Rauf,16,3
+49,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Mohammad Rizwan,68,0
+50,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Mohammad Nawaz,39,1
+51,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Abdullah Shafique,0,0
+52,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Usama Mir,0,0
+53,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Mohammad Wasim,0,0
+54,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Shadab Khan,32,1
+55,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Iftikhar Ahmed,9,1
+56,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Saud Shakeel,68,0
+57,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Shaheen Shah Afridi,13,1
+58,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Babar Azam,5,0
+59,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Imam-ul-Haq,15,0
+60,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,SA Engelbrecht,0,0
+61,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,BFW de Leede,67,4
+62,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,Vikramjit Singh,52,0
+63,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,PA van Meekeren,7,1
+64,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,RE van der Merwe,4,0
+65,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,MP O'Dowd,5,0
+66,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,LV van Beek,28,1
+67,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,W Barresi,0,0
+68,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,Shariz Ahmad,0,0
+69,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,SA Edwards,0,0
+70,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,CN Ackermann,17,2
+71,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,Saqib Zulfiqar,10,0
+72,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,R Klein,0,0
+73,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,A Dutt,1,1
+74,2,2023/24,2023-10-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,AT Nidamanuru,5,0
+96,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Noor Ahmad,0,0
+97,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Rahmanullah Gurbaz,47,0
+98,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Rashid Khan,9,0
+99,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Naveen-ul-Haq,0,1
+100,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Azmatullah Omarzai,22,1
+101,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Mujeeb Ur Rahman,1,0
+102,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Fazalhaq Farooqi,0,1
+103,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Mohammad Nabi,6,0
+104,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Rahmat Shah,18,0
+105,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Ibrahim Zadran,22,0
+106,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Ikram Alikhil,0,0
+107,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Najibullah Zadran,5,0
+108,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Afghanistan,Hashmatullah Shahidi,18,0
+109,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Shakib Al Hasan,14,3
+110,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Nazmul Hossain Shanto,59,0
+111,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mushfiqur Rahim,2,0
+112,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mehedi Hasan Miraz,57,3
+113,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Shoriful Islam,0,2
+114,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mustafizur Rahman,0,1
+115,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mahmudullah,0,0
+116,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Liton Das,13,0
+117,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Towhid Hridoy,0,0
+118,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Nasum Ahmed,0,0
+119,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Taskin Ahmed,0,1
+120,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Hasan Mahmud,0,0
+121,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Tanzid Hasan,5,0
+122,3,2023/24,2023-10-07,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mahedi Hasan,0,0
+143,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,DA Miller,39,0
+144,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,Q de Kock,100,0
+145,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,M Jansen,12,2
+146,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,T Shamsi,0,0
+147,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,K Rabada,0,2
+148,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,KA Maharaj,0,2
+149,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,L Ngidi,0,1
+150,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,RR Hendricks,0,0
+151,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,AK Markram,106,0
+152,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,LB Williams,0,0
+153,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,T Bavuma,8,0
+154,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,H Klaasen,32,0
+155,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,HE van der Dussen,108,0
+156,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",South Africa,G Coetzee,0,3
+157,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,PVD Chameera,0,0
+158,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,D Madushanka,4,2
+159,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,C Karunaratne,0,0
+160,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,CBRLS Kumara,0,0
+161,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,MADI Hemantha,0,0
+162,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,DM de Silva,11,0
+163,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,BKG Mendis,76,0
+164,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,P Nissanka,0,0
+165,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,KIC Asalanka,79,0
+166,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,M Theekshana,0,0
+167,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,M Pathirana,5,1
+168,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,DN Wellalage,0,1
+169,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,S Samarawickrama,23,0
+170,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,FDM Karunaratne,0,0
+171,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,CAK Rajitha,33,1
+172,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,AD Mathews,0,0
+173,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,MD Shanaka,68,0
+174,4,2023/24,2023-10-07,"Arun Jaitley Stadium, Delhi",Sri Lanka,MDKJ Perera,7,0
+196,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,M Labuschagne,27,0
+197,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,AT Carey,0,0
+198,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,GJ Maxwell,15,0
+199,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,A Zampa,6,0
+200,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,MA Starc,28,1
+201,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,TM Head,0,0
+202,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,JP Inglis,0,0
+203,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,MR Marsh,0,0
+204,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,PJ Cummins,15,0
+205,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,MP Stoinis,0,0
+206,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,C Green,8,0
+207,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,JR Hazlewood,1,3
+208,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,DA Warner,41,0
+209,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",Australia,SPD Smith,46,0
+210,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,R Ashwin,0,1
+211,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,SS Iyer,0,0
+212,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,HH Pandya,11,1
+213,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,KL Rahul,97,0
+214,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,Shubman Gill,0,0
+215,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,JJ Bumrah,0,2
+216,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,Mohammed Siraj,0,1
+217,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,RG Sharma,0,0
+218,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,Mohammed Shami,0,0
+219,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,SA Yadav,0,0
+220,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,V Kohli,85,0
+221,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,RA Jadeja,0,3
+222,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,Ishan Kishan,0,0
+223,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,Kuldeep Yadav,0,2
+224,5,2023/24,2023-10-08,"MA Chidambaram Stadium, Chepauk, Chennai",India,SN Thakur,0,0
+242,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,JDS Neesham,0,0
+243,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,R Ravindra,51,1
+244,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,MJ Santner,36,5
+245,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,LH Ferguson,0,0
+246,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,DP Conway,32,0
+247,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,GD Phillips,4,0
+248,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,DJ Mitchell,48,0
+249,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,TG Southee,0,0
+250,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,KS Williamson,0,0
+251,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,TA Boult,0,0
+252,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,WA Young,70,0
+253,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,MS Chapman,5,0
+254,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,MJ Henry,10,3
+255,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",New Zealand,TWM Latham,53,0
+256,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,SA Engelbrecht,29,0
+257,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,BFW de Leede,18,1
+258,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,Vikramjit Singh,12,0
+259,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,PA van Meekeren,4,2
+260,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,RE van der Merwe,1,2
+261,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,MP O'Dowd,16,0
+262,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,LV van Beek,0,0
+263,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,W Barresi,0,0
+264,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,Shariz Ahmad,0,0
+265,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,SA Edwards,30,0
+266,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,CN Ackermann,69,0
+267,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,Saqib Zulfiqar,0,0
+268,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,R Klein,8,0
+269,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,A Dutt,11,2
+270,6,2023/24,2023-10-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Netherlands,AT Nidamanuru,21,0
+291,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,MM Ali,0,0
+292,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,RJW Topley,1,4
+293,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,HC Brook,20,0
+294,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,DJ Malan,140,0
+295,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,MA Wood,6,1
+296,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,AAP Atkinson,0,0
+297,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,BA Stokes,0,0
+298,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,JC Buttler,20,0
+299,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,CR Woakes,14,2
+300,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,JE Root,82,0
+301,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,SM Curran,11,1
+302,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,DJ Willey,0,0
+303,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,JM Bairstow,52,0
+304,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,AU Rashid,11,1
+305,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",England,LS Livingstone,0,1
+306,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Shakib Al Hasan,1,1
+307,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Nazmul Hossain Shanto,0,0
+308,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mushfiqur Rahim,51,0
+309,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mehedi Hasan Miraz,8,0
+310,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Shoriful Islam,12,3
+311,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mustafizur Rahman,3,0
+312,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mahmudullah,0,0
+313,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Liton Das,76,0
+314,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Towhid Hridoy,39,0
+315,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Nasum Ahmed,0,0
+316,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Taskin Ahmed,15,1
+317,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Hasan Mahmud,0,0
+318,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Tanzid Hasan,1,0
+319,7,2023/24,2023-10-10,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Bangladesh,Mahedi Hasan,14,4
+341,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,PVD Chameera,0,0
+342,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,D Madushanka,0,2
+343,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,C Karunaratne,0,0
+344,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,CBRLS Kumara,0,0
+345,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,MADI Hemantha,0,0
+346,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,DM de Silva,25,0
+347,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,BKG Mendis,122,0
+348,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,P Nissanka,51,0
+349,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,KIC Asalanka,1,0
+350,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,M Theekshana,0,1
+351,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,M Pathirana,1,1
+352,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,DN Wellalage,10,0
+353,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,S Samarawickrama,108,0
+354,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,FDM Karunaratne,0,0
+355,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,CAK Rajitha,0,0
+356,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,AD Mathews,0,0
+357,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,MD Shanaka,12,0
+358,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Sri Lanka,MDKJ Perera,0,0
+359,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Fakhar Zaman,0,0
+360,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Hasan Ali,0,4
+361,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Haris Rauf,0,2
+362,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Mohammad Rizwan,131,0
+363,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Mohammad Nawaz,0,1
+364,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Abdullah Shafique,113,0
+365,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Usama Mir,0,0
+366,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Mohammad Wasim,0,0
+367,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Shadab Khan,0,1
+368,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Iftikhar Ahmed,22,0
+369,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Saud Shakeel,31,0
+370,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Shaheen Shah Afridi,0,1
+371,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Babar Azam,10,0
+372,8,2023/24,2023-10-10,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Pakistan,Imam-ul-Haq,12,0
+394,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Noor Ahmad,0,0
+395,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Rahmanullah Gurbaz,21,0
+396,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Rashid Khan,16,2
+397,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Naveen-ul-Haq,9,0
+398,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Azmatullah Omarzai,62,0
+399,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Mujeeb Ur Rahman,10,0
+400,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Fazalhaq Farooqi,0,0
+401,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Mohammad Nabi,19,0
+402,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Rahmat Shah,16,0
+403,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Ibrahim Zadran,22,0
+404,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Ikram Alikhil,0,0
+405,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Najibullah Zadran,2,0
+406,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",Afghanistan,Hashmatullah Shahidi,80,0
+407,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,R Ashwin,0,0
+408,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,SS Iyer,25,0
+409,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,HH Pandya,0,2
+410,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,KL Rahul,0,0
+411,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,Shubman Gill,0,0
+412,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,JJ Bumrah,0,4
+413,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,Mohammed Siraj,0,0
+414,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,RG Sharma,131,0
+415,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,Mohammed Shami,0,0
+416,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,SA Yadav,0,0
+417,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,V Kohli,55,0
+418,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,RA Jadeja,0,0
+419,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,Ishan Kishan,47,0
+420,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,Kuldeep Yadav,0,1
+421,9,2023/24,2023-10-11,"Arun Jaitley Stadium, Delhi",India,SN Thakur,0,1
+440,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Shakib Al Hasan,40,1
+441,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Nazmul Hossain Shanto,7,0
+442,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Mushfiqur Rahim,66,0
+443,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Mehedi Hasan Miraz,30,0
+444,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Shoriful Islam,2,0
+445,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Mustafizur Rahman,4,1
+446,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Mahmudullah,41,0
+447,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Liton Das,0,0
+448,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Towhid Hridoy,13,0
+449,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Nasum Ahmed,0,0
+450,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Taskin Ahmed,17,0
+451,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Hasan Mahmud,0,0
+452,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Tanzid Hasan,16,0
+453,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",Bangladesh,Mahedi Hasan,0,0
+454,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,JDS Neesham,0,0
+455,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,R Ravindra,9,0
+456,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,MJ Santner,0,1
+457,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,LH Ferguson,0,3
+458,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,DP Conway,45,0
+459,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,GD Phillips,16,1
+460,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,DJ Mitchell,89,0
+461,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,TG Southee,0,0
+462,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,KS Williamson,78,0
+463,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,TA Boult,0,2
+464,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,WA Young,0,0
+465,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,MS Chapman,0,0
+466,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,MJ Henry,0,2
+467,11,2023/24,2023-10-13,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,TWM Latham,0,0
+487,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Fakhar Zaman,0,0
+488,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Hasan Ali,12,1
+489,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Haris Rauf,2,0
+490,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Mohammad Rizwan,49,0
+491,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Mohammad Nawaz,4,0
+492,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Abdullah Shafique,20,0
+493,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Usama Mir,0,0
+494,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Mohammad Wasim,0,0
+495,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Shadab Khan,2,0
+496,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Iftikhar Ahmed,4,0
+497,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Saud Shakeel,6,0
+498,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Shaheen Shah Afridi,2,2
+499,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Babar Azam,50,0
+500,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",Pakistan,Imam-ul-Haq,36,0
+501,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,R Ashwin,0,0
+502,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,SS Iyer,53,0
+503,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,HH Pandya,0,2
+504,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,KL Rahul,19,0
+505,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,Shubman Gill,16,0
+506,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,JJ Bumrah,0,2
+507,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,Mohammed Siraj,0,2
+508,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,RG Sharma,86,0
+509,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,Mohammed Shami,0,0
+510,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,SA Yadav,0,0
+511,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,V Kohli,16,0
+512,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,RA Jadeja,0,2
+513,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,Ishan Kishan,0,0
+514,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,Kuldeep Yadav,0,2
+515,12,2023/24,2023-10-14,"Narendra Modi Stadium, Ahmedabad",India,SN Thakur,0,0
+537,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Noor Ahmad,0,0
+538,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Rahmanullah Gurbaz,80,0
+539,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Rashid Khan,23,3
+540,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Naveen-ul-Haq,5,1
+541,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Azmatullah Omarzai,19,0
+542,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Mujeeb Ur Rahman,28,3
+543,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Fazalhaq Farooqi,2,1
+544,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Mohammad Nabi,9,2
+545,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Rahmat Shah,3,0
+546,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Ibrahim Zadran,28,0
+547,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Ikram Alikhil,58,0
+548,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Najibullah Zadran,0,0
+549,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",Afghanistan,Hashmatullah Shahidi,14,0
+550,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,MM Ali,0,0
+551,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,RJW Topley,15,1
+552,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,HC Brook,66,0
+553,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,DJ Malan,32,0
+554,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,MA Wood,18,2
+555,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,AAP Atkinson,0,0
+556,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,BA Stokes,0,0
+557,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,JC Buttler,9,0
+558,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,CR Woakes,9,0
+559,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,JE Root,11,1
+560,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,SM Curran,10,0
+561,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,DJ Willey,0,0
+562,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,JM Bairstow,2,0
+563,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,AU Rashid,20,3
+564,13,2023/24,2023-10-15,"Arun Jaitley Stadium, Delhi",England,LS Livingstone,10,1
+587,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,PVD Chameera,0,0
+588,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,D Madushanka,0,3
+589,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,C Karunaratne,2,0
+590,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,CBRLS Kumara,4,0
+591,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,MADI Hemantha,0,0
+592,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,DM de Silva,7,0
+593,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,BKG Mendis,9,0
+594,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,P Nissanka,61,0
+595,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,KIC Asalanka,25,0
+596,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,M Theekshana,0,0
+597,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,M Pathirana,0,0
+598,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,DN Wellalage,2,1
+599,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,S Samarawickrama,8,0
+600,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,FDM Karunaratne,0,0
+601,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,CAK Rajitha,0,0
+602,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,AD Mathews,0,0
+603,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,MD Shanaka,0,0
+604,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,MDKJ Perera,78,0
+605,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,M Labuschagne,40,0
+606,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,AT Carey,0,0
+607,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,GJ Maxwell,31,1
+608,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,A Zampa,0,4
+609,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,MA Starc,0,2
+610,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,TM Head,0,0
+611,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,JP Inglis,58,0
+612,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,MR Marsh,52,0
+613,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,PJ Cummins,0,2
+614,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,MP Stoinis,20,0
+615,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,C Green,0,0
+616,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,JR Hazlewood,0,0
+617,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,DA Warner,11,0
+618,14,2023/24,2023-10-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,SPD Smith,0,0
+638,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,SA Engelbrecht,19,0
+639,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,BFW de Leede,2,2
+640,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,Vikramjit Singh,2,0
+641,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,PA van Meekeren,0,2
+642,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,RE van der Merwe,29,2
+643,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,MP O'Dowd,18,0
+644,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,LV van Beek,10,3
+645,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,W Barresi,0,0
+646,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,Shariz Ahmad,0,0
+647,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,SA Edwards,78,0
+648,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,CN Ackermann,12,1
+649,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,Saqib Zulfiqar,0,0
+650,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,R Klein,0,0
+651,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,A Dutt,23,0
+652,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Netherlands,AT Nidamanuru,20,0
+653,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,DA Miller,43,0
+654,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,Q de Kock,20,0
+655,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,M Jansen,9,2
+656,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,T Shamsi,0,0
+657,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,K Rabada,9,2
+658,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,KA Maharaj,40,1
+659,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,L Ngidi,7,2
+660,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,RR Hendricks,0,0
+661,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,AK Markram,1,0
+662,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,LB Williams,0,0
+663,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,T Bavuma,16,0
+664,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,H Klaasen,28,0
+665,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,HE van der Dussen,4,0
+666,15,2023/24,2023-10-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",South Africa,G Coetzee,22,1
+689,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,JDS Neesham,0,0
+690,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,R Ravindra,32,1
+691,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,MJ Santner,7,3
+692,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,LH Ferguson,0,3
+693,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,DP Conway,20,0
+694,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,GD Phillips,71,0
+695,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,DJ Mitchell,1,0
+696,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,TG Southee,0,0
+697,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,KS Williamson,0,0
+698,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,TA Boult,0,2
+699,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,WA Young,54,0
+700,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,MS Chapman,25,0
+701,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,MJ Henry,0,1
+702,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",New Zealand,TWM Latham,68,0
+703,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Noor Ahmad,0,0
+704,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Rahmanullah Gurbaz,11,0
+705,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Rashid Khan,8,1
+706,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Naveen-ul-Haq,0,2
+707,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Azmatullah Omarzai,27,2
+708,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Mujeeb Ur Rahman,4,1
+709,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Fazalhaq Farooqi,0,0
+710,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Mohammad Nabi,7,0
+711,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Rahmat Shah,36,0
+712,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Ibrahim Zadran,14,0
+713,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Ikram Alikhil,19,0
+714,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Najibullah Zadran,0,0
+715,16,2023/24,2023-10-18,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Hashmatullah Shahidi,8,0
+737,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Shakib Al Hasan,0,0
+738,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Nazmul Hossain Shanto,8,0
+739,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Mushfiqur Rahim,38,0
+740,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Mehedi Hasan Miraz,3,2
+741,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Shoriful Islam,7,0
+742,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Mustafizur Rahman,1,0
+743,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Mahmudullah,46,0
+744,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Liton Das,66,0
+745,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Towhid Hridoy,16,0
+746,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Nasum Ahmed,14,0
+747,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Taskin Ahmed,0,0
+748,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Hasan Mahmud,0,1
+749,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Tanzid Hasan,51,0
+750,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",Bangladesh,Mahedi Hasan,0,0
+751,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,R Ashwin,0,0
+752,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,SS Iyer,19,0
+753,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,HH Pandya,0,0
+754,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,KL Rahul,34,0
+755,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,Shubman Gill,53,0
+756,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,JJ Bumrah,0,2
+757,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,Mohammed Siraj,0,2
+758,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,RG Sharma,48,0
+759,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,Mohammed Shami,0,0
+760,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,SA Yadav,0,0
+761,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,V Kohli,103,0
+762,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,RA Jadeja,0,2
+763,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,Ishan Kishan,0,0
+764,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,Kuldeep Yadav,0,1
+765,17,2023/24,2023-10-19,"Maharashtra Cricket Association Stadium, Pune",India,SN Thakur,0,1
+787,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,M Labuschagne,8,0
+788,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,AT Carey,0,0
+789,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,GJ Maxwell,0,0
+790,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,A Zampa,1,4
+791,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,MA Starc,2,1
+792,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,TM Head,0,0
+793,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,JP Inglis,13,0
+794,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,MR Marsh,121,0
+795,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,PJ Cummins,6,2
+796,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,MP Stoinis,21,2
+797,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,C Green,0,0
+798,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,JR Hazlewood,0,1
+799,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,DA Warner,163,0
+800,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Australia,SPD Smith,7,0
+801,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Fakhar Zaman,0,0
+802,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Hasan Ali,8,0
+803,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Haris Rauf,0,3
+804,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Mohammad Rizwan,46,0
+805,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Mohammad Nawaz,14,0
+806,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Abdullah Shafique,64,0
+807,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Usama Mir,0,1
+808,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Mohammad Wasim,0,0
+809,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Shadab Khan,0,0
+810,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Iftikhar Ahmed,26,0
+811,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Saud Shakeel,30,0
+812,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Shaheen Shah Afridi,10,5
+813,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Babar Azam,18,0
+814,18,2023/24,2023-10-20,"M Chinnaswamy Stadium, Bengaluru",Pakistan,Imam-ul-Haq,70,0
+836,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,SA Engelbrecht,70,0
+837,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,BFW de Leede,6,0
+838,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,Vikramjit Singh,4,0
+839,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,PA van Meekeren,4,1
+840,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,RE van der Merwe,7,0
+841,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,MP O'Dowd,16,0
+842,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,LV van Beek,59,0
+843,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,W Barresi,0,0
+844,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,Shariz Ahmad,0,0
+845,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,SA Edwards,16,0
+846,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,CN Ackermann,29,1
+847,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,Saqib Zulfiqar,0,0
+848,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,R Klein,0,0
+849,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,A Dutt,9,3
+850,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Netherlands,AT Nidamanuru,9,0
+851,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,PVD Chameera,0,0
+852,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,D Madushanka,0,4
+853,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,C Karunaratne,0,0
+854,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,CBRLS Kumara,0,0
+855,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,MADI Hemantha,4,0
+856,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,DM de Silva,30,0
+857,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,BKG Mendis,11,0
+858,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,P Nissanka,54,0
+859,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,KIC Asalanka,44,0
+860,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,M Theekshana,0,1
+861,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,M Pathirana,0,0
+862,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,DN Wellalage,0,0
+863,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,S Samarawickrama,91,0
+864,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,FDM Karunaratne,0,0
+865,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,CAK Rajitha,0,4
+866,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,AD Mathews,0,0
+867,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,MD Shanaka,0,0
+868,19,2023/24,2023-10-21,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Sri Lanka,MDKJ Perera,5,0
+890,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,DA Miller,5,0
+891,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,Q de Kock,4,0
+892,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,M Jansen,75,2
+893,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,T Shamsi,0,0
+894,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,K Rabada,0,1
+895,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,KA Maharaj,1,1
+896,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,L Ngidi,0,2
+897,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,RR Hendricks,85,0
+898,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,AK Markram,42,0
+899,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,LB Williams,0,0
+900,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,T Bavuma,0,0
+901,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,H Klaasen,109,0
+902,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,HE van der Dussen,60,0
+903,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",South Africa,G Coetzee,3,3
+904,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,MM Ali,0,0
+905,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,RJW Topley,0,3
+906,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,HC Brook,17,0
+907,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,DJ Malan,6,0
+908,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,MA Wood,43,0
+909,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,AAP Atkinson,35,2
+910,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,BA Stokes,5,0
+911,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,JC Buttler,15,0
+912,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,CR Woakes,0,0
+913,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,JE Root,2,0
+914,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,SM Curran,0,0
+915,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,DJ Willey,12,0
+916,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,JM Bairstow,10,0
+917,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,AU Rashid,10,2
+918,20,2023/24,2023-10-21,"Wankhede Stadium, Mumbai",England,LS Livingstone,0,0
+941,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,JDS Neesham,0,0
+942,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,R Ravindra,75,0
+943,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,MJ Santner,1,1
+944,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,LH Ferguson,1,2
+945,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,DP Conway,0,0
+946,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,GD Phillips,23,0
+947,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,DJ Mitchell,130,0
+948,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,TG Southee,0,0
+949,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,KS Williamson,0,0
+950,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,TA Boult,0,1
+951,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,WA Young,17,0
+952,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,MS Chapman,6,0
+953,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,MJ Henry,0,1
+954,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,TWM Latham,5,0
+955,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,R Ashwin,0,0
+956,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,SS Iyer,33,0
+957,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,HH Pandya,0,0
+958,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,KL Rahul,27,0
+959,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,Shubman Gill,26,0
+960,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,JJ Bumrah,0,1
+961,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,Mohammed Siraj,0,1
+962,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,RG Sharma,46,0
+963,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,Mohammed Shami,1,5
+964,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,SA Yadav,2,0
+965,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,V Kohli,95,0
+966,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,RA Jadeja,39,0
+967,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,Ishan Kishan,0,0
+968,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,Kuldeep Yadav,0,2
+969,21,2023/24,2023-10-22,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India,SN Thakur,0,0
+991,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Fakhar Zaman,0,0
+992,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Hasan Ali,0,1
+993,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Haris Rauf,0,0
+994,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Mohammad Rizwan,8,0
+995,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Mohammad Nawaz,0,0
+996,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Abdullah Shafique,58,0
+997,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Usama Mir,0,0
+998,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Mohammad Wasim,0,0
+999,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Shadab Khan,40,0
+1000,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Iftikhar Ahmed,40,0
+1001,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Saud Shakeel,25,0
+1002,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Shaheen Shah Afridi,3,1
+1003,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Babar Azam,74,0
+1004,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Imam-ul-Haq,17,0
+1005,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Noor Ahmad,0,3
+1006,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Rahmanullah Gurbaz,65,0
+1007,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Rashid Khan,0,0
+1008,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Naveen-ul-Haq,0,2
+1009,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Azmatullah Omarzai,0,1
+1010,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Mujeeb Ur Rahman,0,0
+1011,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Fazalhaq Farooqi,0,0
+1012,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Mohammad Nabi,0,1
+1013,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Rahmat Shah,77,0
+1014,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Ibrahim Zadran,87,0
+1015,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Ikram Alikhil,0,0
+1016,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Najibullah Zadran,0,0
+1017,22,2023/24,2023-10-23,"MA Chidambaram Stadium, Chepauk, Chennai",Afghanistan,Hashmatullah Shahidi,48,0
+1035,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,DA Miller,17,0
+1036,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,Q de Kock,109,0
+1037,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,M Jansen,26,2
+1038,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,T Shamsi,0,2
+1039,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,K Rabada,0,3
+1040,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,KA Maharaj,0,2
+1041,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,L Ngidi,0,1
+1042,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,RR Hendricks,0,0
+1043,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,AK Markram,56,0
+1044,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,LB Williams,0,0
+1045,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,T Bavuma,35,0
+1046,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,H Klaasen,29,0
+1047,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,HE van der Dussen,26,0
+1048,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",South Africa,G Coetzee,0,0
+1049,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,M Labuschagne,46,0
+1050,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,AT Carey,0,0
+1051,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,GJ Maxwell,3,2
+1052,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,A Zampa,11,1
+1053,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,MA Starc,27,2
+1054,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,TM Head,0,0
+1055,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,JP Inglis,5,0
+1056,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,MR Marsh,7,0
+1057,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,PJ Cummins,22,1
+1058,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,MP Stoinis,5,0
+1059,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,C Green,0,0
+1060,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,JR Hazlewood,2,1
+1061,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,DA Warner,13,0
+1062,10,2023/24,2023-10-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Australia,SPD Smith,19,0
+1085,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,DA Miller,34,0
+1086,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,Q de Kock,174,0
+1087,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,M Jansen,1,2
+1088,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,T Shamsi,0,0
+1089,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,K Rabada,0,2
+1090,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,KA Maharaj,0,1
+1091,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,L Ngidi,0,0
+1092,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,RR Hendricks,12,0
+1093,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,AK Markram,60,0
+1094,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,LB Williams,0,2
+1095,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,T Bavuma,0,0
+1096,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,H Klaasen,90,0
+1097,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,HE van der Dussen,1,0
+1098,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",South Africa,G Coetzee,0,3
+1099,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Shakib Al Hasan,1,1
+1100,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Nazmul Hossain Shanto,0,0
+1101,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Mushfiqur Rahim,8,0
+1102,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Mehedi Hasan Miraz,11,1
+1103,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Shoriful Islam,6,1
+1104,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Mustafizur Rahman,11,0
+1105,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Mahmudullah,111,0
+1106,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Liton Das,22,0
+1107,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Towhid Hridoy,0,0
+1108,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Nasum Ahmed,19,0
+1109,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Taskin Ahmed,0,0
+1110,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Hasan Mahmud,15,2
+1111,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Tanzid Hasan,12,0
+1112,23,2023/24,2023-10-24,"Wankhede Stadium, Mumbai",Bangladesh,Mahedi Hasan,0,0
+1134,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,M Labuschagne,62,0
+1135,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,AT Carey,0,0
+1136,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,GJ Maxwell,106,0
+1137,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,A Zampa,1,4
+1138,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,MA Starc,0,1
+1139,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,TM Head,0,0
+1140,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,JP Inglis,14,0
+1141,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,MR Marsh,9,2
+1142,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,PJ Cummins,12,1
+1143,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,MP Stoinis,0,0
+1144,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,C Green,8,0
+1145,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,JR Hazlewood,0,1
+1146,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,DA Warner,104,0
+1147,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Australia,SPD Smith,71,0
+1148,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,SA Engelbrecht,11,0
+1149,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,BFW de Leede,4,2
+1150,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,Vikramjit Singh,25,0
+1151,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,PA van Meekeren,0,0
+1152,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,RE van der Merwe,0,0
+1153,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,MP O'Dowd,6,0
+1154,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,LV van Beek,0,4
+1155,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,W Barresi,0,0
+1156,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,Shariz Ahmad,0,0
+1157,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,SA Edwards,12,0
+1158,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,CN Ackermann,10,0
+1159,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,Saqib Zulfiqar,0,0
+1160,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,R Klein,0,0
+1161,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,A Dutt,1,1
+1162,24,2023/24,2023-10-25,"Arun Jaitley Stadium, Delhi",Netherlands,AT Nidamanuru,14,0
+1183,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,MM Ali,15,0
+1184,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,RJW Topley,0,0
+1185,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,HC Brook,0,0
+1186,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,DJ Malan,28,0
+1187,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,MA Wood,5,0
+1188,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,AAP Atkinson,0,0
+1189,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,BA Stokes,43,0
+1190,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,JC Buttler,8,0
+1191,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,CR Woakes,0,0
+1192,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,JE Root,3,0
+1193,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,SM Curran,0,0
+1194,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,DJ Willey,14,2
+1195,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,JM Bairstow,30,0
+1196,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,AU Rashid,2,0
+1197,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",England,LS Livingstone,1,0
+1198,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,PVD Chameera,0,0
+1199,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,D Madushanka,0,0
+1200,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,C Karunaratne,0,0
+1201,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,CBRLS Kumara,0,3
+1202,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,MADI Hemantha,0,0
+1203,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,DM de Silva,0,0
+1204,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,BKG Mendis,11,0
+1205,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,P Nissanka,77,0
+1206,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,KIC Asalanka,0,0
+1207,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,M Theekshana,0,1
+1208,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,M Pathirana,0,0
+1209,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,DN Wellalage,0,0
+1210,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,S Samarawickrama,65,0
+1211,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,FDM Karunaratne,0,0
+1212,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,CAK Rajitha,0,2
+1213,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,AD Mathews,0,2
+1214,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,MD Shanaka,0,0
+1215,25,2023/24,2023-10-26,"M Chinnaswamy Stadium, Bengaluru",Sri Lanka,MDKJ Perera,4,0
+1234,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Fakhar Zaman,0,0
+1235,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Hasan Ali,0,0
+1236,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Haris Rauf,0,2
+1237,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Mohammad Rizwan,31,0
+1238,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Mohammad Nawaz,24,0
+1239,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Abdullah Shafique,9,0
+1240,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Usama Mir,0,2
+1241,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Mohammad Wasim,7,2
+1242,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Shadab Khan,43,0
+1243,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Iftikhar Ahmed,21,0
+1244,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Saud Shakeel,52,0
+1245,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Shaheen Shah Afridi,2,3
+1246,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Babar Azam,50,0
+1247,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",Pakistan,Imam-ul-Haq,12,0
+1248,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,DA Miller,29,0
+1249,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,Q de Kock,24,0
+1250,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,M Jansen,20,3
+1251,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,T Shamsi,4,4
+1252,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,K Rabada,0,0
+1253,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,KA Maharaj,7,0
+1254,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,L Ngidi,4,1
+1255,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,RR Hendricks,0,0
+1256,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,AK Markram,91,0
+1257,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,LB Williams,0,0
+1258,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,T Bavuma,28,0
+1259,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,H Klaasen,12,0
+1260,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,HE van der Dussen,21,0
+1261,26,2023/24,2023-10-27,"MA Chidambaram Stadium, Chepauk, Chennai",South Africa,G Coetzee,10,2
+1285,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,M Labuschagne,18,0
+1286,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,AT Carey,0,0
+1287,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,GJ Maxwell,41,1
+1288,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,A Zampa,0,3
+1289,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,MA Starc,1,0
+1290,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,TM Head,109,0
+1291,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,JP Inglis,38,0
+1292,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,MR Marsh,36,0
+1293,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,PJ Cummins,37,2
+1294,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,MP Stoinis,0,0
+1295,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,C Green,0,0
+1296,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,JR Hazlewood,0,2
+1297,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,DA Warner,81,0
+1298,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Australia,SPD Smith,18,0
+1299,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,JDS Neesham,58,1
+1300,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,R Ravindra,116,0
+1301,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,MJ Santner,17,2
+1302,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,LH Ferguson,0,0
+1303,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,DP Conway,28,0
+1304,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,GD Phillips,12,3
+1305,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,DJ Mitchell,54,0
+1306,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,TG Southee,0,0
+1307,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,KS Williamson,0,0
+1308,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,TA Boult,10,3
+1309,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,WA Young,32,0
+1310,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,MS Chapman,0,0
+1311,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,MJ Henry,9,1
+1312,27,2023/24,2023-10-28,"Himachal Pradesh Cricket Association Stadium, Dharamsala",New Zealand,TWM Latham,21,0
+1334,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,SA Engelbrecht,35,0
+1335,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,BFW de Leede,17,2
+1336,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,Vikramjit Singh,3,0
+1337,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,PA van Meekeren,0,4
+1338,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,RE van der Merwe,0,0
+1339,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,MP O'Dowd,0,0
+1340,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,LV van Beek,23,1
+1341,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,W Barresi,41,0
+1342,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,Shariz Ahmad,6,0
+1343,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,SA Edwards,68,0
+1344,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,CN Ackermann,15,1
+1345,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,Saqib Zulfiqar,0,0
+1346,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,R Klein,0,0
+1347,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,A Dutt,9,1
+1348,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Netherlands,AT Nidamanuru,0,0
+1349,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Shakib Al Hasan,5,1
+1350,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Nazmul Hossain Shanto,9,0
+1351,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Mushfiqur Rahim,1,0
+1352,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Mehedi Hasan Miraz,35,0
+1353,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Shoriful Islam,0,2
+1354,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Mustafizur Rahman,20,2
+1355,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Mahmudullah,20,0
+1356,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Liton Das,3,0
+1357,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Towhid Hridoy,0,0
+1358,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Nasum Ahmed,0,0
+1359,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Taskin Ahmed,11,2
+1360,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Hasan Mahmud,0,0
+1361,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Tanzid Hasan,15,0
+1362,28,2023/24,2023-10-28,"Eden Gardens, Kolkata",Bangladesh,Mahedi Hasan,17,2
+1384,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,R Ashwin,0,0
+1385,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,SS Iyer,4,0
+1386,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,HH Pandya,0,0
+1387,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,KL Rahul,39,0
+1388,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,Shubman Gill,9,0
+1389,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,JJ Bumrah,16,3
+1390,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,Mohammed Siraj,0,0
+1391,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,RG Sharma,87,0
+1392,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,Mohammed Shami,1,4
+1393,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,SA Yadav,49,0
+1394,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,V Kohli,0,0
+1395,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,RA Jadeja,8,1
+1396,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,Ishan Kishan,0,0
+1397,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,Kuldeep Yadav,9,2
+1398,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",India,SN Thakur,0,0
+1399,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,MM Ali,15,0
+1400,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,RJW Topley,0,0
+1401,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,HC Brook,0,0
+1402,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,DJ Malan,16,0
+1403,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,MA Wood,0,1
+1404,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,AAP Atkinson,0,0
+1405,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,BA Stokes,0,0
+1406,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,JC Buttler,10,0
+1407,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,CR Woakes,10,2
+1408,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,JE Root,0,0
+1409,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,SM Curran,0,0
+1410,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,DJ Willey,16,3
+1411,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,JM Bairstow,14,0
+1412,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,AU Rashid,13,2
+1413,29,2023/24,2023-10-29,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",England,LS Livingstone,27,0
+1432,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,PVD Chameera,1,0
+1433,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,D Madushanka,0,2
+1434,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,C Karunaratne,0,0
+1435,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,CBRLS Kumara,0,0
+1436,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,MADI Hemantha,0,0
+1437,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,DM de Silva,14,0
+1438,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,BKG Mendis,39,0
+1439,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,P Nissanka,46,0
+1440,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,KIC Asalanka,22,0
+1441,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,M Theekshana,29,0
+1442,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,M Pathirana,0,0
+1443,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,DN Wellalage,0,0
+1444,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,S Samarawickrama,36,0
+1445,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,FDM Karunaratne,15,0
+1446,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,CAK Rajitha,5,1
+1447,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,AD Mathews,23,0
+1448,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,MD Shanaka,0,0
+1449,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Sri Lanka,MDKJ Perera,0,0
+1450,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Noor Ahmad,0,0
+1451,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Rahmanullah Gurbaz,0,0
+1452,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Rashid Khan,0,1
+1453,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Naveen-ul-Haq,0,0
+1454,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Azmatullah Omarzai,73,1
+1455,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Mujeeb Ur Rahman,0,2
+1456,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Fazalhaq Farooqi,0,4
+1457,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Mohammad Nabi,0,0
+1458,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Rahmat Shah,62,0
+1459,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Ibrahim Zadran,39,0
+1460,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Ikram Alikhil,0,0
+1461,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Najibullah Zadran,0,0
+1462,30,2023/24,2023-10-30,"Maharashtra Cricket Association Stadium, Pune",Afghanistan,Hashmatullah Shahidi,58,0
+1481,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Shakib Al Hasan,43,0
+1482,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Nazmul Hossain Shanto,4,0
+1483,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Mushfiqur Rahim,5,0
+1484,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Mehedi Hasan Miraz,25,3
+1485,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Shoriful Islam,1,0
+1486,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Mustafizur Rahman,3,0
+1487,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Mahmudullah,56,0
+1488,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Liton Das,45,0
+1489,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Towhid Hridoy,7,0
+1490,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Nasum Ahmed,0,0
+1491,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Taskin Ahmed,6,0
+1492,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Hasan Mahmud,0,0
+1493,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Tanzid Hasan,0,0
+1494,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Bangladesh,Mahedi Hasan,0,0
+1495,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Fakhar Zaman,81,0
+1496,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Hasan Ali,0,0
+1497,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Haris Rauf,0,2
+1498,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Mohammad Rizwan,26,0
+1499,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Mohammad Nawaz,0,0
+1500,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Abdullah Shafique,68,0
+1501,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Usama Mir,0,1
+1502,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Mohammad Wasim,0,3
+1503,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Shadab Khan,0,0
+1504,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Iftikhar Ahmed,17,1
+1505,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Saud Shakeel,0,0
+1506,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Shaheen Shah Afridi,0,3
+1507,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Babar Azam,9,0
+1508,31,2023/24,2023-10-31,"Eden Gardens, Kolkata",Pakistan,Imam-ul-Haq,0,0
+1528,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,DA Miller,53,0
+1529,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,Q de Kock,114,0
+1530,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,M Jansen,0,3
+1531,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,T Shamsi,0,0
+1532,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,K Rabada,0,1
+1533,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,KA Maharaj,0,4
+1534,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,L Ngidi,0,0
+1535,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,RR Hendricks,0,0
+1536,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,AK Markram,6,0
+1537,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,LB Williams,0,0
+1538,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,T Bavuma,24,0
+1539,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,H Klaasen,15,0
+1540,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,HE van der Dussen,133,0
+1541,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",South Africa,G Coetzee,0,2
+1542,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,JDS Neesham,0,1
+1543,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,R Ravindra,9,0
+1544,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,MJ Santner,7,0
+1545,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,LH Ferguson,0,0
+1546,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,DP Conway,2,0
+1547,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,GD Phillips,60,0
+1548,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,DJ Mitchell,24,0
+1549,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,TG Southee,7,2
+1550,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,KS Williamson,0,0
+1551,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,TA Boult,9,1
+1552,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,WA Young,33,0
+1553,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,MS Chapman,0,0
+1554,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,MJ Henry,0,0
+1555,32,2023/24,2023-11-01,"Maharashtra Cricket Association Stadium, Pune",New Zealand,TWM Latham,4,0
