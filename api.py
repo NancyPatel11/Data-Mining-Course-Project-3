@@ -1,10 +1,10 @@
 import uvicorn
 from fastapi import FastAPI
-import numpy as np
 import pickle
 import pandas as pd
 import random as rn
 from sklearn.preprocessing import LabelEncoder
+from datamodels import *
 
 app=FastAPI()
 toss_decision=open("pickle_files/toss_decision.pkl","rb")
@@ -61,10 +61,6 @@ def predict():
 
     df['toss_winner']=toss_winner
 
-    # le=LabelEncoder()
-    # for col in df.columns:
-    #     df[col]=le.fit_transform(df[col])
-
     feature=list(df.columns)
     number_of_features=df.shape[1]
     for i in range(0,number_of_features):
@@ -75,8 +71,6 @@ def predict():
             df.loc[j, feature_name] = new_value
 
     toss_prediction = toss_decision_model.predict(df)
-    # prediction=1 => field
-    # prediction=0 => bat
 
     batting_team1=[]
     bowling_team1=[]
@@ -260,9 +254,10 @@ def predict():
         'NRR':NRR
     }
 
-@app.get('/finalist')
-def predict_finalist():
-    dict_top4=predict()
+@app.post('/finalist')
+def predict_finalist(top4:finalist_data):
+    top4=list(top4)
+    top4=top4[0][1]
 
     df=pd.read_csv('csv_files/matches.csv')
     df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
@@ -282,11 +277,11 @@ def predict_finalist():
     toss_losser=[]
     for i in range(0,number_of_matches):
         if(rn.uniform(0,1)<0.5):
-            toss_winner.append(dict_top4['team'][i])
-            toss_losser.append(dict_top4['team'][3-i])
+            toss_winner.append(top4[i])
+            toss_losser.append(top4[3-i])
         else:
-            toss_winner.append(dict_top4['team'][3-i])
-            toss_losser.append(dict_top4['team'][i])
+            toss_winner.append(top4[3-i])
+            toss_losser.append(top4[i])
 
     # df['toss_winner']=toss_winner
 
@@ -294,8 +289,8 @@ def predict_finalist():
     for col in df.columns:
         df[col]=le.fit_transform(df[col])
 
-    team1=[dict_top4['team'][0],dict_top4['team'][3]]
-    team2=[dict_top4['team'][1],dict_top4['team'][2]]
+    team1=[top4[0],top4[3]]
+    team2=[top4[1],top4[2]]
     venue=['Eden Gardens','Wankhede Stadium']
     df=pd.DataFrame()
     df['team1']=team1
@@ -425,9 +420,10 @@ def predict_finalist():
         'finalist':finalist,
     }
 
-@app.get('/playing-11')
-def predict_playing11():
-    dict_finalist=predict_finalist()
+@app.post('/playing-11')
+def predict_playing11(finalist:playing11_data):
+    team=list(finalist)
+    final_team=team[0][1]
 
     df=pd.read_csv('csv_files/playerwise_df.csv')
     df.drop(['match_id', 'season', 'start_date'],axis='columns',inplace=True)
@@ -465,11 +461,11 @@ def predict_playing11():
         team = row['bowling_team']
         team_players[team].add(row['bowler'])
 
-    team1_players=list(team_players[dict_finalist['finalist'][0]])
-    team2_players=list(team_players[dict_finalist['finalist'][1]])
+    team1_players=list(team_players[final_team[0]])
+    team2_players=list(team_players[final_team[1]])
 
-    team1=dict_finalist['finalist'][0]
-    team2=dict_finalist['finalist'][1]
+    team1=final_team[0]
+    team2=final_team[1]
 
     df_team1=pd.DataFrame()
     df_team1['venue']=[7 for i in range(0,len(team1_players))]
@@ -549,9 +545,10 @@ def predict_playing11():
         team2:team2_playing_11
     }
 
-@app.get('/winner')
-def predict_winner():
-    dict_finalist=predict_finalist()
+@app.post('/winner')
+def predict_winner(finalist:winner_data):
+    finalist=list(finalist)
+    finalist_team=finalist[0][1]
 
     df=pd.read_csv('csv_files/matches.csv')
     df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
@@ -571,20 +568,18 @@ def predict_winner():
     toss_losser=[]
     for i in range(0,number_of_matches):
         if(rn.uniform(0,1)<0.5):
-            toss_winner.append(dict_finalist['finalist'][i])
-            toss_losser.append(dict_finalist['finalist'][1-i])
+            toss_winner.append(finalist_team[i])
+            toss_losser.append(finalist_team[1-i])
         else:
-            toss_winner.append(dict_finalist['finalist'][1-i])
-            toss_losser.append(dict_finalist['finalist'][i])
-
-    # df['toss_winner']=toss_winner
+            toss_winner.append(finalist_team[1-i])
+            toss_losser.append(finalist_team[i])
 
     le=LabelEncoder()
     for col in df.columns:
         df[col]=le.fit_transform(df[col])
 
-    team1=[dict_finalist['finalist'][0]]
-    team2=[dict_finalist['finalist'][1]]
+    team1=[finalist_team[0]]
+    team2=[finalist_team[1]]
     venue=['Narendra Modi Stadium']
     df=pd.DataFrame()
     df['team1']=team1
