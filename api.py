@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import pandas as pd
 import random as rn
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 from datamodels import *
 
 app=FastAPI()
@@ -25,6 +25,9 @@ player_model=pickle.load(file_player)
 
 file_partner=open("pickle_files/run_partnership.pkl","rb")
 partner_model=pickle.load(file_partner)
+
+file_run_ball=open("pickle_files/ball_prediction_rfc.pkl","rb")
+run_ball_model=pickle.load(file_run_ball)
 
 #default route
 @app.get('/')
@@ -717,7 +720,7 @@ def predict_winner(finalist:winner_data):
     }
 
 @app.post('/partnership')
-def predict_winner(data:partner_data):
+def predict_partnership_runs(data:partner_data):
     data=dict(data)
     data_dict={}
     data_dict['venue']=data['venue']
@@ -762,6 +765,48 @@ def predict_winner(data:partner_data):
     return{
         "partnership_runs":runs[0]
     }
+
+@app.post('/run-on-ball')
+def predict_runs_on_ball(ball_data:ball_prediction_data):
+    
+    data = pd.read_csv("csv_files/ball_prediction.csv",index_col=0)
+    data.drop(['match_id','season','start_date','runs_off_bat'],axis=1,inplace=True)
+
+    def label_encode(data, column, le=None):
+        le = LabelEncoder()
+        data[column] = le.fit_transform(data[column])
+        return le
+
+    # Example of label encoding for string columns
+    label_encoders = {}
+    for column in ['venue', 'batting_team', 'bowling_team', 'striker', 'non_striker', 'bowler', 'wicket_type', 'player_dismissed']:
+        label_encoders[column] = label_encode(data, column)
+
+    scaler = StandardScaler()
+    data = scaler.fit_transform(data)
+
+    input_data = np.array([[
+        label_encoders['venue'].transform([ball_data.venue])[0],
+        ball_data.innings, ball_data.ball,
+        label_encoders['batting_team'].transform([ball_data.batting_team])[0],
+        label_encoders['bowling_team'].transform([ball_data.bowling_team])[0],
+        label_encoders['striker'].transform([ball_data.striker])[0],
+        label_encoders['non_striker'].transform([ball_data.non_striker])[0],
+        label_encoders['bowler'].transform([ball_data.bowler])[0],
+        ball_data.extras, ball_data.wides, ball_data.noballs,
+        ball_data.byes, ball_data.legbyes, ball_data.penalty,
+        label_encoders['wicket_type'].transform([ball_data.wicket_type])[0],
+        label_encoders['player_dismissed'].transform([ball_data.player_dismissed])[0],
+    ]])
+
+    input_data = scaler.transform(input_data)
+
+    predicted_runs = run_ball_model.predict(input_data)
+
+    predicted_runs = int(round(predicted_runs[0]))
+
+    return {"predicted_runs": predicted_runs}
+
 
 if __name__ == '__main__':
     uvicorn.run(app, host='127.0.0.1', port=8000)
