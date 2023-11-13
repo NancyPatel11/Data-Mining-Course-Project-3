@@ -770,20 +770,16 @@ def predict_partnership_runs(data:partner_data):
 def predict_runs_on_ball(ball_data:ball_prediction_data):
     
     data = pd.read_csv("csv_files/ball_prediction.csv",index_col=0)
-    data.drop(['match_id','season','start_date','runs_off_bat'],axis=1,inplace=True)
+    data.drop(['match_id','season','start_date','runs_off_bat','wicket_type', 'player_dismissed', 'extras', 'wides','noballs','byes','legbyes','penalty'],axis=1,inplace=True)
 
     def label_encode(data, column, le=None):
         le = LabelEncoder()
         data[column] = le.fit_transform(data[column])
         return le
 
-    # Example of label encoding for string columns
     label_encoders = {}
-    for column in ['venue', 'batting_team', 'bowling_team', 'striker', 'non_striker', 'bowler', 'wicket_type', 'player_dismissed']:
+    for column in ['venue', 'batting_team', 'bowling_team', 'striker', 'non_striker', 'bowler']:
         label_encoders[column] = label_encode(data, column)
-
-    scaler = StandardScaler()
-    data = scaler.fit_transform(data)
 
     input_data = np.array([[
         label_encoders['venue'].transform([ball_data.venue])[0],
@@ -792,14 +788,8 @@ def predict_runs_on_ball(ball_data:ball_prediction_data):
         label_encoders['bowling_team'].transform([ball_data.bowling_team])[0],
         label_encoders['striker'].transform([ball_data.striker])[0],
         label_encoders['non_striker'].transform([ball_data.non_striker])[0],
-        label_encoders['bowler'].transform([ball_data.bowler])[0],
-        ball_data.extras, ball_data.wides, ball_data.noballs,
-        ball_data.byes, ball_data.legbyes, ball_data.penalty,
-        label_encoders['wicket_type'].transform([ball_data.wicket_type])[0],
-        label_encoders['player_dismissed'].transform([ball_data.player_dismissed])[0],
+        label_encoders['bowler'].transform([ball_data.bowler])[0]
     ]])
-
-    input_data = scaler.transform(input_data)
 
     predicted_runs = run_ball_model.predict(input_data)
 
