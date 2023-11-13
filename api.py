@@ -1,6 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
 import pickle
+import numpy as np
 import pandas as pd
 import random as rn
 from sklearn.preprocessing import LabelEncoder
@@ -21,6 +22,9 @@ overs_model=pickle.load(file_over)
 
 file_player=open("pickle_files/runs_wickets_prediction.pkl","rb")
 player_model=pickle.load(file_player)
+
+file_partner=open("pickle_files/run_partnership.pkl","rb")
+partner_model=pickle.load(file_partner)
 
 #default route
 @app.get('/')
@@ -556,7 +560,7 @@ def predict_winner(finalist:winner_data):
     finalist=list(finalist)
     finalist_team=finalist[0][1]
 
-    if len(finalist_team)!=4:
+    if len(finalist_team)!=2:
         return {"message":"Must enter a list having 2 teams"}
 
     df=pd.read_csv('csv_files/matches.csv')
@@ -710,6 +714,53 @@ def predict_winner(finalist:winner_data):
 
     return{
         'winner':winner,
+    }
+
+@app.post('/partnership')
+def predict_winner(data:partner_data):
+    data=dict(data)
+    data_dict={}
+    data_dict['venue']=data['venue']
+    data_dict['batting_team']=data['batting_team']
+    data_dict['bowling_team']=data['bowling_team']
+    data_dict['striker']=data['striker']
+    data_dict['non_striker']=data['non_striker']
+
+    le = LabelEncoder()
+    mapping = {}
+
+    df_deliveries=pd.read_csv('csv_files/deliveries.csv')
+
+    df_deliveries = df_deliveries.drop(['innings','season','start_date', 'ball','bowler', 'runs_off_bat', 'extras', 'wides', 'noballs', 'byes', 'legbyes',
+       'penalty','other_wicket_type','other_player_dismissed','player_dismissed','match_id', 'wicket_type'],axis='columns')
+
+    cat = [col for col in df_deliveries if df_deliveries[col].dtype == 'object']
+
+    for column in cat:
+        df_deliveries[column] = le.fit_transform(df_deliveries[column])
+        mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
+
+    feature=list(df_deliveries.columns)
+    number_of_features=df_deliveries.shape[1]
+    for i in range(0,number_of_features):
+        feature_name = feature[i]
+        original_value = data_dict[feature_name]
+        new_value = mapping[feature_name][original_value]
+        data_dict[feature_name] = new_value
+
+    df_input=pd.DataFrame()
+    # tmp=[[data_dict['venue'],data_dict['batting_team'],data_dict['bowling_team'],data_dict['striker'],data_dict['non_striker']],[data_dict['venue'],data_dict['batting_team'],data_dict['bowling_team'],data_dict['striker'],data_dict['non_striker']]]
+
+    df_input['venue']=[data_dict['venue']]
+    df_input['batting_team']=[data_dict['batting_team']]
+    df_input['bowling_team']=[data_dict['bowling_team']]
+    df_input['striker']=[data_dict['striker']]
+    df_input['non_striker']=[data_dict['non_striker']]
+
+    runs=partner_model.predict(df_input)
+
+    return{
+        "partnership_runs":runs[0]
     }
 
 if __name__ == '__main__':
