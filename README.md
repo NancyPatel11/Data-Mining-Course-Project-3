@@ -221,16 +221,30 @@ In order to predict runs on each ball, we used the datasets given below:
 1. deliveries.csv
 
 
-To predict the runs on each ball, we used the following .ipynb files which were imported as pickle files and used in our ball_prediction_api's 'predict' function:
+To predict the runs on each ball, we used the following .ipynb files which were imported as pickle files and used in our api's 'predict_runs_on_ball' function:
 
 1. ball_prediction.ipynb
 
 This file predicts the 'runs_off_bat' (runs on each ball) based on 'venue', 'batting team', 'bowling team' and 'striker', 'non striker', 'bowler', 'extras' and 'wides', 'no balls', 'byes', 'leg byes' and 'penalty', 'wicket type',and 'player dismissed'. 
-We import this file as ball_prediction_rfc.pkl and used it in ball_prediction_api.py .
+We import this file as ball_prediction_rfc.pkl and used it in api.py .
 
 We have used deep neural network (dnn) as one of the models for prediction in this task. In the ball_prediction_api, for the label encoding fitting data, we have passed the pre-processed data from ball_prediction.ipynb as ball_prediction.csv .
 
 **Problem 2:**
+
+**Predicting the runs that two batsmen will make in a partnership**
+
+In order to predict the partnership runs that will be made by two batsmen, we used the dataset given below:
+
+1. deliveries.csv
+
+To predict the partnership runs that will be made by two batsmen, we used the following .ipynb file which were imported as pickle files:
+
+1. partnership_prediction.ipynb
+
+This file predicts the 'partnership_runs' based on 'venue', 'batting_team', 'bowling_team', 'striker' and 'non-striker'. We import this file as run_partnership.pkl and use it in api.py's 'predict_partnership_runs'.
+
+We have used various models like LinearRegression, RandomForestRegressor, XGBRegressor, PolynomialFeatures, CatBoostRegressor, LGBMRegression and Deep Neural Network for the prediction in this task. All the other descriptions are mentioned in the ipynb file while processing the data and training/testing the model.
 
 # Task 2
 
