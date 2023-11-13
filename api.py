@@ -259,6 +259,9 @@ def predict_finalist(top4:finalist_data):
     top4=list(top4)
     top4=top4[0][1]
 
+    if len(top4)!=4:
+        return {"message":"Must enter a list having 4 teams"}
+
     df=pd.read_csv('csv_files/matches.csv')
     df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
        'reserve_umpire', 'match_referee', 'winner', 'winner_runs',
@@ -425,6 +428,9 @@ def predict_playing11(finalist:playing11_data):
     team=list(finalist)
     final_team=team[0][1]
 
+    if len(final_team)!=2:
+        return {"message":"Must enter a list having 2 teams"}
+
     df=pd.read_csv('csv_files/playerwise_df.csv')
     df.drop(['match_id', 'season', 'start_date'],axis='columns',inplace=True)
 
@@ -549,6 +555,9 @@ def predict_playing11(finalist:playing11_data):
 def predict_winner(finalist:winner_data):
     finalist=list(finalist)
     finalist_team=finalist[0][1]
+
+    if len(finalist_team)!=4:
+        return {"message":"Must enter a list having 2 teams"}
 
     df=pd.read_csv('csv_files/matches.csv')
     df.drop(['season','date', 'match_number','player_of_match', 'umpire1', 'umpire2',
