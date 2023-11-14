@@ -430,6 +430,7 @@ We again use the same method to predict the winner. First we take two finalist t
 
 Deven Patel (202101264) and Takshay Makadia (202101414)
 - API creation
+- Data Models
 - Toss Decision
 - Ball Prediction
 
