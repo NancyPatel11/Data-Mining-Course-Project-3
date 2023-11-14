@@ -136,7 +136,7 @@ Users can now predict points tables, the finalists for finals, playing 11 player
 
 a. deliveries.csv
 
-This dataset is taken from kaggle. It has following features:
+This dataset is taken from [kaggle](https://www.kaggle.com/datasets/pardeep19singh/icc-mens-world-cup-2023/data). It has following features:
 
 1. `match_id`: Identifier for a specific cricket match.
 
@@ -184,7 +184,7 @@ This dataset is taken from kaggle. It has following features:
 
 b. points_table.csv
 
-This dataset is taken from kaggle. It has following features:
+This dataset is taken from [kaggle](https://www.kaggle.com/datasets/pardeep19singh/icc-mens-world-cup-2023/data). It has following features:
 
 1. `Ranking`: The position of the cricket team in the overall ranking.
 
@@ -214,7 +214,7 @@ This dataset is taken from kaggle. It has following features:
 
 c. matches.csv
 
-This dataset is taken from kaggle. It has following features.
+This dataset is taken from [kaggle](https://www.kaggle.com/datasets/pardeep19singh/icc-mens-world-cup-2023/data). It has following features.
 
 1. `season`: The cricket season in which the match is played.
 
@@ -264,7 +264,7 @@ We manually created this dataset for the future matches.It has the following fea
 
 e. match_summary.csv
 
-This data is created by using match_summary_csv_creation.ipynb file. It consists of features venue, innings, batting_team, bowling_team, total_runs_per_inning_match and total_overs_played. This dataset basically shows the matchwise runs made by each team and the total overs played by each of them. This dataset is created using the matches.csv and deliveries.csv datasets taken from kaggle. The breif description of each feature follows:
+This data is created by using match_summary_csv_creation.ipynb file. It consists of features venue, innings, batting_team, bowling_team, total_runs_per_inning_match and total_overs_played. This dataset basically shows the matchwise runs made by each team and the total overs played by each of them. This dataset is created using the matches.csv and deliveries.csv datasets taken from [kaggle](https://www.kaggle.com/datasets/pardeep19singh/icc-mens-world-cup-2023/data). The breif description of each feature follows:
 
 1. `venue_x`: The location or stadium where the cricket match is taking place.
 
