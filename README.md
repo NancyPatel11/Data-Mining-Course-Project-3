@@ -31,7 +31,97 @@ To run the ICC Cricket World Cup 2023 Simulator on your machine, follow these st
     in git bash write the following command: 
 
     python api.py
-   
+
+# Working with API
+
+Our FastAPI application has several endpoints for different predictions related to cricket matches. Below is a brief summary of each endpoint and how a user can interact with our API:
+
+1. **Default Route:**
+   - URL: `/`
+   - Method: `GET`
+   - Description: This is the default route that just returns a message indicating our group for the project (Group 03).
+
+2. **API Demo Route:**
+   - URL: `/api-demo`
+   - Method: `GET`
+   - Description: Returns a message indicating that it is the Cricket World Cup 2023 predictor API.
+
+3. **Points Table Prediction Route:**
+   - URL: `/points-table`
+   - Method: `GET`
+   - Description: Predicts and returns the points table for the Cricket World Cup 2023 based on the matches played and upcoming matches.
+
+4. **Finalist Prediction Route:**
+   - URL: `/finalist`
+   - Method: `POST`
+   - Request Body: Expects a JSON object with a key "teams" containing a list of four teams. Example:
+     ```json
+     {
+       "team": ["Team1", "Team2", "Team3", "Team4"]
+     }
+     ```
+   - Description: Predicts and returns the two finalists from the provided list of teams.
+
+5. **Playing 11 Prediction Route:**
+   - URL: `/playing-11`
+   - Method: `POST`
+   - Request Body: Expects a JSON object with a key "teams" containing a list of two teams. Example:
+     ```json
+     {
+       "team": ["Team1", "Team2"]
+     }
+     ```
+   - Description: Predicts and returns the playing 11 for each team in the Cricket World Cup 2023 final.
+
+6. **Winner Prediction Route:**
+   - URL: `/winner`
+   - Method: `POST`
+   - Request Body: Expects a JSON object with a key "teams" containing a list of two teams. Example:
+     ```json
+     {
+       "team": ["Team1", "Team2"]
+     }
+     ```
+   - Description: Predicts and returns the winner of the Cricket World Cup 2023 final.
+
+7. **Partnership Prediction Route:**
+   - URL: `/partnership`
+   - Method: `POST`
+   - Request Body: Expects a JSON object with parameters related to a partnership prediction. Example:
+     ```json
+     {
+       "venue": "string",
+       "batting_team": "string",
+       "bowling_team": "string",
+       "striker": "string",
+       "non_striker": "string"
+     }
+     ```
+   - Description: Predicts and returns the partnership runs based on the provided parameters.
+
+8. **Run on Ball Prediction Route:**
+   - URL: `/run-on-ball`
+   - Method: `POST`
+   - Request Body: Expects a JSON object with parameters related to a run prediction on a specific ball. Example:
+     ```json
+     {
+       "venue": "string",
+       "innings": {inning_number},
+       "ball": {ball_number}, 
+       "batting_team": "string",
+       "bowling_team": "string",
+       "striker": "string",
+       "non_striker": "string",
+       "bowler": "string"
+     }
+     ```
+   - Description: Predicts and returns the outcome of the run scored on a specific ball based on the provided parameters.
+
+Please note that for the POST requests, users need to send the required data in the request body as specified in the above examples and explanations. Please go through the datasets in order to understand how the particular inputs needs to be given, for e.g., to give the striker name as "Virat Kohli" you need to give input as "V Kohli", for which reference can be taken from deliveries.csv.
+
+These should help users understand how to structure their requests for each endpoint in order to work with our api.
+Users can now predict points tables, the finalists for finals, playing 11 players for the two teams in the finals, winners of World Cup 2023, partnership runs by 2 players of same team, and even runs on specific balls using this API.
+
 # Prerequisites
 
 - Python 3.6 or higher
@@ -335,3 +425,19 @@ To generate the winner team, we used the following .ipynb file which was importe
 4. total_over_pediction.ipynb
 
 We again use the same method to predict the winner. First we call the 'predict_finalist' function to findout the finalist teams in ICC World Cup. Now, we take these two finalist teams as input. We predict the toss decision, followed by the runs made by team 1 in inning 1 and overs played by team 1 in inning 1. Next, we find the runs made by team 2 in inning 2 and overs played by team 2 in inning 2. Based on the runs and overs, we then declare the winner.
+
+# Contributions:
+
+Deven Patel (202101264) and Takshay Makadia (202101414)
+- API creation
+- Toss Decision
+- Ball Prediction
+
+Sakshi Patadiya (202101469), Nancy Patel (202101491) and Ishita Rathod (202101516)
+- README File
+- Partnership Prediction
+- Total Over Prediction
+- Total Run Prediction for inning 1
+- Total Run Prediction for inning 2
+- Total Runs Wickets Predictions
+- Match Summary Creation
