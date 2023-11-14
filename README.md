@@ -31,7 +31,7 @@ To run the ICC Cricket World Cup 2023 Simulator on your machine, follow these st
     in git bash write the following command: 
 
     python api.py
-    
+
 # Working with API
 
 Our FastAPI application has several endpoints for different predictions related to cricket matches. Below is a brief summary of each endpoint and how a user can interact with our API:
@@ -425,3 +425,19 @@ To generate the winner team, we used the following .ipynb file which was importe
 4. total_over_pediction.ipynb
 
 We again use the same method to predict the winner. First we call the 'predict_finalist' function to findout the finalist teams in ICC World Cup. Now, we take these two finalist teams as input. We predict the toss decision, followed by the runs made by team 1 in inning 1 and overs played by team 1 in inning 1. Next, we find the runs made by team 2 in inning 2 and overs played by team 2 in inning 2. Based on the runs and overs, we then declare the winner.
+
+# Contributions:
+
+Deven Patel (202101264) and Takshay Makadia (202101414)
+- API creation
+- Toss Decision
+- Ball Prediction
+
+Sakshi Patadiya (202101469), Nancy Patel (202101491) and Ishita Rathod (202101516)
+- README File
+- Partnership Prediction
+- Total Over Prediction
+- Total Run Prediction for inning 1
+- Total Run Prediction for inning 2
+- Total Runs Wickets Predictions
+- Match Summary Creation
