@@ -544,19 +544,26 @@ def predict_playing11(finalist:playing11_data):
         wicket.append(val[1])
     final_team2['wicket']=wicket
 
-    final_team1=final_team1.sort_values(by=['run','wicket'],ascending=False)
-    final_team2=final_team2.sort_values(by=['run','wicket'],ascending=False)
+    final_team1_runs = final_team1.sort_values(by='run', ascending=False)
+    final_team1_wickets = final_team1.sort_values(by='wicket', ascending=False)
 
-    team1_playing_11=[]
-    team2_playing_11=[]
-    for i in range(0,12):
-        team1_playing_11.append(final_team1.iloc[i]['player'])
-        team2_playing_11.append(final_team2.iloc[i]['player'])
+    team1_playing_11_runs = final_team1_runs.iloc[:6]['player'].tolist()
+    team1_playing_11_wickets = final_team1_wickets[~final_team1_wickets['player'].isin(team1_playing_11_runs)].iloc[:5]['player'].tolist()
+   
+    final_team1_playing_11 = list(set(team1_playing_11_runs + team1_playing_11_wickets))
 
+    final_team2_runs = final_team2.sort_values(by='run', ascending=False)
+    final_team2_wickets = final_team2.sort_values(by='wicket', ascending=False)
+
+    team2_playing_11_runs = final_team2_runs.iloc[:6]['player'].tolist()
+    team2_playing_11_wickets = final_team2_wickets[~final_team2_wickets['player'].isin(team2_playing_11_runs)].iloc[:5]['player'].tolist()
+   
+    final_team2_playing_11 = list(set(team2_playing_11_runs + team2_playing_11_wickets))
     return {
-        team1:team1_playing_11,
-        team2:team2_playing_11
+        team1: final_team1_playing_11,
+        team2: final_team2_playing_11
     }
+
 
 @app.post('/winner')
 def predict_winner(finalist:winner_data):
