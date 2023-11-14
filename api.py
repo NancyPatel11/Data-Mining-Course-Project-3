@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import pandas as pd
 import random as rn
-from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.preprocessing import LabelEncoder
 from datamodels import *
 
 app=FastAPI()
@@ -307,14 +307,18 @@ def predict_finalist(top4:finalist_data):
     df['team2']=team2
     df['venue']=venue
     df['toss_winner']=toss_winner
-    feature=list(df.columns)
-    number_of_features=df.shape[1]
-    for i in range(0,number_of_features):
-        for j in range(0,number_of_matches):
-            feature_name = feature[i]
-            original_value = df.loc[j, feature_name]
-            new_value = toss_mapping[feature_name][original_value]
-            df.loc[j, feature_name] = new_value
+
+    try:
+        feature=list(df.columns)
+        number_of_features=df.shape[1]
+        for i in range(0,number_of_features):
+            for j in range(0,number_of_matches):
+                feature_name = feature[i]
+                original_value = df.loc[j, feature_name]
+                new_value = toss_mapping[feature_name][original_value]
+                df.loc[j, feature_name] = new_value
+    except:
+        return{"message":"Invalid Data"}
 
     toss_prediction = toss_decision_model.predict(df)
 
@@ -344,14 +348,17 @@ def predict_finalist(top4:finalist_data):
     df_inning1['venue']=venue_x
     df_inning1['Total_Overs_Played']=Total_Overs_Played
 
-    feature=list(df_inning1.columns)
-    number_of_features=df_inning1.shape[1]
-    for i in range(0,number_of_features-2):
-        for j in range(0,number_of_matches):
-            feature_name = feature[i]
-            original_value = df_inning1.loc[j, feature_name]
-            new_value = toss_mapping[feature_name][original_value]
-            df_inning1.loc[j, feature_name] = new_value
+    try:
+        feature=list(df_inning1.columns)
+        number_of_features=df_inning1.shape[1]
+        for i in range(0,number_of_features-2):
+            for j in range(0,number_of_matches):
+                feature_name = feature[i]
+                original_value = df_inning1.loc[j, feature_name]
+                new_value = toss_mapping[feature_name][original_value]
+                df_inning1.loc[j, feature_name] = new_value
+    except:
+        return{"message":"Invalid Data"}
 
     df_inning1.rename(columns={"team1":"batting_team","team2":"bowling_team","venue":"venue_x"},inplace=True)
     inning1_pred=inning1_model.predict(df_inning1)
@@ -393,14 +400,17 @@ def predict_finalist(top4:finalist_data):
     df_inning2['venue']=venue_x
     df_inning2['Total_Overs_Played']=Total_Overs_Played
 
-    feature=list(df_inning2.columns)
-    number_of_features=df_inning2.shape[1]
-    for i in range(0,number_of_features-2):
-        for j in range(0,number_of_matches):
-            feature_name = feature[i]
-            original_value = df_inning2.loc[j, feature_name]
-            new_value = toss_mapping[feature_name][original_value]
-            df_inning2.loc[j, feature_name] = new_value
+    try:
+        feature=list(df_inning2.columns)
+        number_of_features=df_inning2.shape[1]
+        for i in range(0,number_of_features-2):
+            for j in range(0,number_of_matches):
+                feature_name = feature[i]
+                original_value = df_inning2.loc[j, feature_name]
+                new_value = toss_mapping[feature_name][original_value]
+                df_inning2.loc[j, feature_name] = new_value
+    except:
+        return{"message":"Invalid Data"}
 
     df_inning2.rename(columns={"team1":"batting_team","team2":"bowling_team","venue":"venue_x"},inplace=True)
     inning2_pred=inning2_model.predict(df_inning2)
@@ -474,8 +484,11 @@ def predict_playing11(finalist:playing11_data):
         team = row['bowling_team']
         team_players[team].add(row['bowler'])
 
-    team1_players=list(team_players[final_team[0]])
-    team2_players=list(team_players[final_team[1]])
+    try:
+        team1_players=list(team_players[final_team[0]])
+        team2_players=list(team_players[final_team[1]])
+    except:
+        return{"message":"Invalid Data"}
 
     team1=final_team[0]
     team2=final_team[1]
@@ -602,14 +615,18 @@ def predict_winner(finalist:winner_data):
     df['team2']=team2
     df['venue']=venue
     df['toss_winner']=toss_winner
-    feature=list(df.columns)
-    number_of_features=df.shape[1]
-    for i in range(0,number_of_features):
-        for j in range(0,number_of_matches):
-            feature_name = feature[i]
-            original_value = df.loc[j, feature_name]
-            new_value = toss_mapping[feature_name][original_value]
-            df.loc[j, feature_name] = new_value
+
+    try:
+        feature=list(df.columns)
+        number_of_features=df.shape[1]
+        for i in range(0,number_of_features):
+            for j in range(0,number_of_matches):
+                feature_name = feature[i]
+                original_value = df.loc[j, feature_name]
+                new_value = toss_mapping[feature_name][original_value]
+                df.loc[j, feature_name] = new_value
+    except:
+        return{"message":"Invalid Data"}
 
     toss_prediction = toss_decision_model.predict(df)
 
@@ -639,14 +656,17 @@ def predict_winner(finalist:winner_data):
     df_inning1['venue']=venue_x
     df_inning1['Total_Overs_Played']=Total_Overs_Played
 
-    feature=list(df_inning1.columns)
-    number_of_features=df_inning1.shape[1]
-    for i in range(0,number_of_features-2):
-        for j in range(0,number_of_matches):
-            feature_name = feature[i]
-            original_value = df_inning1.loc[j, feature_name]
-            new_value = toss_mapping[feature_name][original_value]
-            df_inning1.loc[j, feature_name] = new_value
+    try:
+        feature=list(df_inning1.columns)
+        number_of_features=df_inning1.shape[1]
+        for i in range(0,number_of_features-2):
+            for j in range(0,number_of_matches):
+                feature_name = feature[i]
+                original_value = df_inning1.loc[j, feature_name]
+                new_value = toss_mapping[feature_name][original_value]
+                df_inning1.loc[j, feature_name] = new_value
+    except:
+        return{"message":"Invalid Data"}
 
     df_inning1.rename(columns={"team1":"batting_team","team2":"bowling_team","venue":"venue_x"},inplace=True)
     inning1_pred=inning1_model.predict(df_inning1)
@@ -688,14 +708,17 @@ def predict_winner(finalist:winner_data):
     df_inning2['venue']=venue_x
     df_inning2['Total_Overs_Played']=Total_Overs_Played
 
-    feature=list(df_inning2.columns)
-    number_of_features=df_inning2.shape[1]
-    for i in range(0,number_of_features-2):
-        for j in range(0,number_of_matches):
-            feature_name = feature[i]
-            original_value = df_inning2.loc[j, feature_name]
-            new_value = toss_mapping[feature_name][original_value]
-            df_inning2.loc[j, feature_name] = new_value
+    try:
+        feature=list(df_inning2.columns)
+        number_of_features=df_inning2.shape[1]
+        for i in range(0,number_of_features-2):
+            for j in range(0,number_of_matches):
+                feature_name = feature[i]
+                original_value = df_inning2.loc[j, feature_name]
+                new_value = toss_mapping[feature_name][original_value]
+                df_inning2.loc[j, feature_name] = new_value
+    except:
+        return{"message":"Invalid Data"}
 
     df_inning2.rename(columns={"team1":"batting_team","team2":"bowling_team","venue":"venue_x"},inplace=True)
     inning2_pred=inning2_model.predict(df_inning2)
@@ -743,13 +766,16 @@ def predict_partnership_runs(data:partner_data):
         df_deliveries[column] = le.fit_transform(df_deliveries[column])
         mapping[column] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-    feature=list(df_deliveries.columns)
-    number_of_features=df_deliveries.shape[1]
-    for i in range(0,number_of_features):
-        feature_name = feature[i]
-        original_value = data_dict[feature_name]
-        new_value = mapping[feature_name][original_value]
-        data_dict[feature_name] = new_value
+    try:
+        feature=list(df_deliveries.columns)
+        number_of_features=df_deliveries.shape[1]
+        for i in range(0,number_of_features):
+            feature_name = feature[i]
+            original_value = data_dict[feature_name]
+            new_value = mapping[feature_name][original_value]
+            data_dict[feature_name] = new_value
+    except:
+        return{"message":"Invalid Data"}
 
     df_input=pd.DataFrame()
     # tmp=[[data_dict['venue'],data_dict['batting_team'],data_dict['bowling_team'],data_dict['striker'],data_dict['non_striker']],[data_dict['venue'],data_dict['batting_team'],data_dict['bowling_team'],data_dict['striker'],data_dict['non_striker']]]
@@ -804,4 +830,3 @@ if __name__ == '__main__':
 
 #Command to run API server   
 #python -m uvicorn main:app --reload
-
