@@ -54,7 +54,7 @@ Our FastAPI application has several endpoints for different predictions related 
 4. **Finalist Prediction Route:**
    - URL: `/finalist`
    - Method: `POST`
-   - Request Body: Expects a JSON object with a key "teams" containing a list of four teams. Example:
+   - Request Body: Expects a JSON object with a key "team" containing a list of four teams. Example:
      ```json
      {
        "team": ["Team1", "Team2", "Team3", "Team4"]
@@ -65,7 +65,7 @@ Our FastAPI application has several endpoints for different predictions related 
 5. **Playing 11 Prediction Route:**
    - URL: `/playing-11`
    - Method: `POST`
-   - Request Body: Expects a JSON object with a key "teams" containing a list of two teams. Example:
+   - Request Body: Expects a JSON object with a key "team" containing a list of two teams. Example:
      ```json
      {
        "team": ["Team1", "Team2"]
@@ -76,7 +76,7 @@ Our FastAPI application has several endpoints for different predictions related 
 6. **Winner Prediction Route:**
    - URL: `/winner`
    - Method: `POST`
-   - Request Body: Expects a JSON object with a key "teams" containing a list of two teams. Example:
+   - Request Body: Expects a JSON object with a key "team" containing a list of two teams. Example:
      ```json
      {
        "team": ["Team1", "Team2"]
